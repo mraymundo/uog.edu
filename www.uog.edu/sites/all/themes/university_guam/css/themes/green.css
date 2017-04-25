@@ -1,0 +1,52 @@
+body.green{}
+
+body.green a,
+body.green h3,
+body.green h6{color:#00652E;}
+
+body.green #sub_header .top,
+body.green #sub_header .slider{ background-color:#00652E;}
+
+body.green #minisites .left_area .pane-views-panes .pane-title,
+body.green #minisites .left_area .pane-menu-tree .pane-title,
+body.green #minisites .link_list.helpful h3,
+body.green #minisites .left_area .pane-views-panes li.expanded  h3,
+body.green #minisites .left_area .menu-block-wrapper li.expanded h3{color:#00652E;}
+
+body.green #minisites .left_area .pane-views-panes a:hover,
+body.green #minisites .left_area .pane-views-panes a.active,
+body.green #minisites .link_list.helpful a:hover,
+body.green #minisites .link_list.helpful a.active,
+body.green #minisites .left_area .menu-block-wrapper li a:hover,
+body.green #minisites .left_area .menu-block-wrapper li a.active{ background-color:#00652E;}
+
+body.green #minisites #news_calendar .row-fluid{ background-color:#d8e8de;}
+body.green #minisites #events,
+body.green .pane-home-events-panel-pane-2{background-color:#A5CFB5;}
+
+body.green #minisites #pagearea-minisites hr{border-color:#00652E;}
+body.green a.apply-btn{ background-color:#00652E;}
+
+body.green #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-green.png) no-repeat}
+body.green #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-green.png) no-repeat}
+
+
+body.green .admission .pane-home-events-panel-pane-1{background-color:#d8e8de;}
+body.green .admission .minisite-events ul li.views-row .views-field-title a,
+body.green .admission .minisite-events ul li.views-row h4{ color:#00652E;}
+
+body.green .container h1#page-title,
+body.green #slider_block .sub_menu,
+body.green #slider_block .slider .caption{background-color:#00652E;}
+
+body.green .financial .pane-home-events-panel-pane-1,
+body.green .admission .pane-home-events-panel-pane-1{background-color:#d8e8de; color:#00652E;}
+
+body.green .financial .minisite-events ul li.views-row .views-field-title a,
+body.green .financial .minisite-events ul li.views-row h4,
+body.green .financial .mid_area .block h4{ color:#00652E;}
+
+body.green #slider_block .sub_menu li a:hover,
+body.green #slider_block .sub_menu li a.active,
+body.green #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.green #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#b6c335;}

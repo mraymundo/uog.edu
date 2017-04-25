@@ -1,0 +1,4 @@
+--4/25/17--
+
+	1. Identify and comment out uog.edu image slider tags and code
+	2. Consult ou dev team to replace uog.edu image sliders with LDP Gallery

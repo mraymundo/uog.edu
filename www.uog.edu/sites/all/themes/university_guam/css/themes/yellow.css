@@ -1,0 +1,49 @@
+body.yellow{}
+
+body.yellow a,
+body.yellow h3,
+body.yellow h6{color:#FFC425;}
+
+body.yellow #sub_header .top,
+body.yellow #sub_header .slider{ background-color:#FFC425;}
+
+body.yellow #minisites .left_area .pane-views-panes .pane-title,
+body.yellow #minisites .left_area .pane-menu-tree .pane-title,
+body.yellow #minisites .link_list.helpful h3,
+body.yellow #minisites .left_area .pane-views-panes li.expanded  h3,
+body.yellow #minisites .left_area .menu-block-wrapper li.expanded h3{color:#FFC425;}
+
+
+
+body.yellow #minisites .left_area .pane-views-panes a:hover,
+body.yellow #minisites .left_area .pane-views-panes a.active,
+body.yellow #minisites .link_list.helpful a:hover,
+body.yellow #minisites .link_list.helpful a.active,
+body.yellow #minisites .left_area .menu-block-wrapper li a:hover,
+body.yellow #minisites .left_area .menu-block-wrapper li a.active{ background-color:#FFC425;}
+
+body.yellow #minisites #news_calendar .row-fluid{ background-color:#FDE8B0;}
+body.yellow #minisites #events,
+body.yellow .pane-home-events-panel-pane-2{background-color:#FCD97C;}
+
+body.yellow #minisites #pagearea-minisites hr{border-color:#FFC425;}
+body.yellow a.apply-btn{ background-color:#FFC425;}
+
+body.yellow #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-yellow.png) no-repeat}
+body.yellow #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-yellow.png) no-repeat}
+
+body.yellow .container h1#page-title,
+body.yellow #slider_block .sub_menu,
+body.yellow #slider_block .slider .caption{background-color:#FFC425;}
+
+body.yellow .financial .pane-home-events-panel-pane-1,
+body.yellow .admission .pane-home-events-panel-pane-1{background-color:#FDE8B0; color:#FFC425;}
+
+body.yellow .financial .minisite-events ul li.views-row .views-field-title a,
+body.yellow .financial .minisite-events ul li.views-row h4,
+body.yellow .financial .mid_area .block h4{ color:#FFC425;}
+
+body.yellow #slider_block .sub_menu li a:hover,
+body.yellow #slider_block .sub_menu li a.active,
+body.yellow #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.yellow #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#FADF98;}

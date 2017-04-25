@@ -1,0 +1,39 @@
+/**
+ * @file
+ * college_school_minisite panel layout
+**/
+
+.college_school_minisite-container {
+  margin-bottom: 1em;
+}
+
+.college_school_minisite-column {
+  min-height: 1px;
+  width: 34.043%;
+  float: left;
+}
+
+  .college_school_minisite-column-inner {
+    margin-right: 20px;
+  }
+
+  .college_school_minisite-column3,
+  .college_school_minisite-secondary-column3 {
+    min-height: 1px;
+    width: 31.915%;
+    margin-right: 0;
+  }
+  
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .college_school_minisite-column,
+  .college_school_minisite-column3,
+  .college_school_minisite-secondary-column3 {
+    width: 100%;
+    float: none;
+  }
+  
+  .college_school_minisite-column-inner  {
+    margin-right: 0;
+  }
+}

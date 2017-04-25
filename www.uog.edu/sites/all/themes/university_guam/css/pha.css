@@ -1,0 +1,46 @@
+.purple .pha_menu .menu {background: #00652E;margin: 0;}
+.purple .pha_menu ul.menu li {margin: 0;float: left;padding: 0;list-style: none;list-style-image: none;position:relative;}
+.purple .pha_menu ul.menu li h3 {font-size: 18px;color: #FFFFFF;text-transform: uppercase;padding: 6px 25px;margin: 0;font-weight: normal;line-height:normal;display:block;}
+.purple .pha_menu ul.menu li.home {margin-left:10px;}
+.purple .pha_menu ul.menu li a {color: #FFFFFF;	text-transform: uppercase;padding: 10px 25px;font-size: 18px;display:block;}
+.purple .pha_menu ul.menu li  li a{ font-size:16px;}
+.purple .pha_menu ul.menu li a:hover, .purple .pha_menu ul.menu li h3:hover {color:#00652E;background:#fff;text-decoration:none;}
+.pha_menu ul.menu li.expanded ul.menu {position: absolute;width: 235px;	top: 40px;z-index: 700;opacity: 0;overflow: hidden;visibility: hidden;padding:0;}
+.pha_menu ul.menu li.expanded ul.menu li {width:100%;border-bottom:1px solid #fff;}
+.pha_menu ul.menu li.expanded ul.menu li.last {border-bottom:0;}
+.pha_menu ul.menu li.expanded:hover> ul {visibility: visible;opacity: 1;}
+.purple .pha .pha_lates_news {border: 1px solid #808285;}
+.purple .pha .pha_lates_news h2 {background: #00652E;color: #fff;text-align:center;}
+.pha .pha_lates_news .pane-content {padding:10px;}
+.pha_organizer {background:#939598;	padding:10px;	color:#FFFFFF;}
+.pha_coorganizers {	background:#bcbdc0;	padding:10px;	color:#FFFFFF;}
+.pha_counter #counter { font-size: 22px; color: #00652E; text-align: center;font-weight: bold;}
+.pha_counter #counter span { display: block; float: left;  padding: 0 5px;}
+.pha_counter #counter span em { text-transform: uppercase; display: block; font-size: 15px; font-weight: normal; font-style:normal !important;}
+.logged-in .pha { padding-top:20px;}
+
+
+.green .pha_menu .menu {background: #00652E;margin: 0;}
+.green .pha_menu ul.menu li {margin: 0;float: left;padding: 0;list-style: none;list-style-image: none;position:relative;}
+.green .pha_menu ul.menu li h3 {font-size: 18px;color: #FFFFFF;text-transform: uppercase;padding: 6px 70px;margin: 0;font-weight: normal;line-height:normal;display:block;}
+.green .pha_menu ul.menu li.home {margin-left:10px;}
+.green .pha_menu ul.menu li a {color: #FFFFFF;	text-transform: uppercase;padding: 10px 70px;font-size: 18px;display:block;}
+.green .pha_menu ul.menu ul li a{ padding:10px 15px;}
+.green .pha_menu ul.menu li  li a{ font-size:16px;}
+.green .pha_menu ul.menu li a:hover, .green .pha_menu ul.menu li h3:hover {color:#00652E;background:#fff;text-decoration:none;}
+
+.green #minisites .link_list.helpful h3, .green #minisites .left_area h3{ color:#00652E;}
+
+@media (min-width:981px) and (max-width:1199px){
+.green .pha_menu ul.menu li a{ padding:10px 50px;}
+.green .pha_menu ul.menu li h3{ padding:6px 50px;}
+
+}
+@media (min-width:768px) and (max-width:980px){
+.green .pha_menu ul.menu li a{ padding:10px 28px;}
+.green .pha_menu ul.menu li h3{ padding:6px 28px;}
+
+}
+@media (min-width:768px) and (max-width:979px){
+.page-node-15442 #pagearea-minisites .visible-tablet{ display:none !important;}
+}

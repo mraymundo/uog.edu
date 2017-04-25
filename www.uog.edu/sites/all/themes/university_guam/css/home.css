@@ -1,0 +1,121 @@
+#pagearea_home {}
+
+#pagearea_home .toptext{margin:0; }
+#pagearea_home .toptext h2{ font-size:22px; font-weight:normal; font-style:italic; margin:0px; }
+.gtime{ font-size:11px; margin-top:14px;}
+
+
+@media (max-width: 767px){
+	.toptext h2{ float:none; text-align:center;}
+	.toptext .gtime{float:none; text-align:center;}
+}
+
+
+#banner {height:380px; overflow:hidden; margin:20px 0;}
+#banner li{background-color:#4c4c4c; }
+
+.share{ margin-top:10px;}
+
+#pagearea_home .welcome{ background-color:#dededc; padding:20px; color:#0f0b08; line-height:16px; margin-top:20px; width:920px;}
+#pagearea_home .welcome a{ }
+#pagearea_home .welcome P{ width:920px; clear:both;}
+#pagearea_home .fright{ font-size:16px; font-weight:100;}
+
+
+#teaser_block{font: bold 18px 'Trebuchet MS', Arial, Helvetica, sans-serif; color:#0a0b0d; margin-top:-40px; position:relative; z-index:400;}
+@media (max-width: 767px){
+	#teaser_block{margin-top:0px;}
+}
+#teaser_block ul{display:block; text-align:center; margin:0;}
+#teaser_block li.teaser {display:inline-block; *float:left; width:155px; margin:0 12px; background-color:#738f80; padding:7px 15px; border: solid 1px #FFF; height:95px; cursor:pointer; margin-bottom:10px; position:relative; z-index:200}
+#teaser_block li.teaser a{color:#0A0B0D }
+#teaser_block li.teaser .p1{ display:block; line-height:20px; margin-bottom:7px;}
+#teaser_block li.teaser .p1 span{ color:#FFF;}
+#teaser_block li.teaser .link{ display:block; width:120px; margin:auto; border-top:#FFF dashed 1px; font-size:12px; color:#0a0b0d; padding-top:4px;}
+
+#teaser_block li.starting {background-color:#bf9f62;}
+#teaser_block li.doing {background-color:#0099b9;}
+
+#teaser_block li.teaser:hover, #teaser_block li.teaser:hover .link{color:#FFF;}
+
+#teaser_block li .active{ display:block; height:20px; background: url(img/teaser_active1.html) center bottom no-repeat; width:100%; position:absolute; bottom:-19px; left:0; display:none;}
+#teaser_block li.starting .active{ background-image:url(img/teaser_active2.html)}
+#teaser_block li.doing .active{ background-image:url(img/teaser_active3.html)}
+#teaser_block li.selected .active{ display:block;}
+
+#teaser_block .teaser_detail{background-color:#91AF9F; padding:20px; text-align:left; font-weight:normal; font-size:16px; position:relative; z-index:100;}
+#teaser_block .teaser_detail ul{list-style:none; text-align:left; margin-left:10px;}
+#teaser_block .teaser_detail h4{ color:#FFF; font-size:18px;}
+#teaser_block .teaser_detail li .detail{}
+#teaser_block .teaser_detail li a{color:#0A0B0D; text-decoration:underline;}
+
+#teaser_block .detail2{ background-color:#E4C589}
+#teaser_block .detail3{ background-color:#7fccdc}
+
+#teaser_block .close{ position:absolute; top:10px; right:10px; font-size:16px;
+opacity: 0.4; filter: alpha(opacity=40);}
+#teaser_block .close:hover{opacity: 0.6; filter: alpha(opacity=60);}
+
+@media (max-width: 768px) {
+	#teaser_block li.teaser{display:block; margin:10px auto;}
+	#teaser_block .teaser_detail{ margin-top:-245px; z-index:400;}
+	#teaser_block li.selected {z-index:600;}
+	#teaser_block .detail2{ margin-top:-125px;}
+	#teaser_block .detail3{ margin-top:0px;}
+	#teaser_block .close{top:5px; right:5px; font-size:14px;}
+}
+
+#bulletin{margin-top:15px; margin-bottom:50px;}
+#bulletin ul{ margin:0; padding:0; list-style:none;}
+#bulletin .list{ margin-bottom:0px}
+#bulletin .list li{ border-right: solid 1px #005D7B; line-height:13px; padding:0 10px 0 7px;}
+#bulletin .list li.last{ border:none;}
+#bulletin p{ line-height:18px; font-size:14px; margin-bottom:7px;}
+#bulletin div.alr{ }
+#bulletin div.read_all{ position:relative; margin:-57px 100px 0 0;}
+#bulletin .bx-wrapper .bx-prev { left: -17px;}
+#bulletin .bx-wrapper .bx-next { right: -17px; }
+.bulletin_list li{ border-top: solid 1px #CCC; margin-top:10px; padding-top:10px;}
+.bulletin_list li.first{ border:none;}
+
+#geda_programs{}
+#geda_programs .list{ margin:0 20px}
+#geda_programs ul{ margin:0; padding:0; list-style:none;}
+#geda_programs ul li{ padding:0;}
+#geda_programs ul li span{ display:block;}
+#geda_programs ul li .img{ border: solid 2px #dddddb; padding:1px;}
+#geda_programs .bx-viewport ul li img{width:100%;}
+#geda_programs ul li .name{font:bold 14px 'Trebuchet MS', Arial, Helvetica, sans-serif; color:#0a0b0d; text-align:center; text-transform:uppercase; margin-top:10px;}
+#geda_programs ul li a:hover .img{border-color:#005D7B;}
+#geda_programs ul li a:hover .name{color:#005D7B;}
+#geda_programs .bx-wrapper .bx-prev { left: -20px;}
+#geda_programs .bx-wrapper .bx-next { right: -20px; }
+
+#message{ font-family: 'Trebuchet MS'; margin:30px 0;}
+#message .well{ margin:0; padding:0;}
+#message .gov{background:#DEDEDC; margin:15px 19px; font-size:15px;}
+#message .gov_image{text-align:center; font-style:italic; font-size:12px; padding-top:15px;}
+#message .gov_image p{ margin:0;}
+#message .gov_image img{ margin-bottom:5px;}
+#message .gov .pattern{background:url(img/bg_programs.html) left bottom repeat-x; width:100%; height:30px;}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#message .gov_image{margin-left:0;}
+}
+
+#logo_block{ margin:40px 0 30px;}
+#logo_block ul{ text-align:center;}
+#logo_block li{display:inline-block; *float:left; padding:0 20px;}
+
+
+.list{ list-style:none; margin:0; padding:0; display:block; text-align:center; margin-bottom:15px;}
+.list li{ display:inline-block; *float:left; font-size:14px; padding:0 10px; }
+
+.program_details { padding:10px;}
+.program_details p{ line-height:20px;}
+.program_details p .left{ float:left; padding:7px 10px 10px 0;}
+.program_details p .right{ float:right; padding:7px 0px 10px 10px;}
+
+@media (max-width: 768px) {
+#message .gov_image{ margin-bottom:15px;}
+}

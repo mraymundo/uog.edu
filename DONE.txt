@@ -1,0 +1,18 @@
+--4/24/17--
+
+	1. Called requirejs to include external .js scripts:
+		http://requirejs.org/
+		version 2.3.3 downloaded to uogmedia.guamwebz.com/sites/all/themes/university_guam/js
+	
+	2. CONSOLIDATED NECESSARY HTTRACK SCRIPTS TO scripts.js (?)
+		original scripts:
+			index.html -> scripts98bd.js
+			class -> scripts2e09.js
+
+
+--4/25/17--
+	1. Found and replaced all hard-coded purple color values with green values in files associated with class-home.html
+	2. Replaced color codes in purple.css with color codes from green.css (for reasons beyond me...)
+
+
+--4/26/17--

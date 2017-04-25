@@ -1,0 +1,49 @@
+body.accent-green{}
+
+body.accent-green a,
+body.accent-green h3,
+body.accent-green h6{color:#A8B400;}
+
+body.accent-green #sub_header .top,
+body.accent-green #sub_header .slider{ background-color:#A8B400;}
+
+body.accent-green #minisites .left_area .pane-views-panes .pane-title,
+body.accent-green #minisites .left_area .pane-menu-tree .pane-title,
+body.accent-green #minisites .link_list.helpful h3,
+body.accent-green #minisites .left_area .pane-views-panes li.expanded  h3,
+body.accent-green #minisites .left_area .menu-block-wrapper li.expanded h3{color:#A8B400;}
+
+body.accent-green #minisites .left_area .pane-views-panes a:hover,
+body.accent-green #minisites .left_area .pane-views-panes a.active,
+body.accent-green #minisites .link_list.helpful a:hover,
+body.accent-green #minisites .link_list.helpful a.active,
+body.accent-green #minisites .left_area .menu-block-wrapper li a:hover,
+body.accent-green #minisites .left_area .menu-block-wrapper li a.active{ background-color:#A8B400;}
+
+body.accent-green #minisites #news_calendar .row-fluid{ background-color:#E6EC94;}
+body.accent-green #minisites #news_calendar .row-fluid.even{ background-color:#E6E6E6;}
+
+body.accent-green #minisites #events,
+body.accent-green .pane-home-events-panel-pane-2{background-color:#BDC551;}
+
+body.accent-green #minisites #pagearea-minisites hr{border-color:#A8B400;}
+body.accent-green a.apply-btn{ background-color:#A8B400;}
+
+body.accent-green #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-accent-green.png) no-repeat}
+body.accent-green #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-accent-green.png) no-repeat}
+
+body.accent-green .container h1#page-title,
+body.accent-green #slider_block .sub_menu,
+body.accent-green #slider_block .slider .caption{background-color:#A8B400;}
+
+body.accent-green .financial .pane-home-events-panel-pane-1,
+body.accent-green .admission .pane-home-events-panel-pane-1{background-color:#E6EC94; color:#A8B400;}
+
+body.accent-green .financial .minisite-events ul li.views-row .views-field-title a,
+body.accent-green .financial .minisite-events ul li.views-row h4,
+body.accent-green .financial .mid_area .block h4{ color:#A8B400;}
+
+body.accent-green #slider_block .sub_menu li a:hover,
+body.accent-green #slider_block .sub_menu li a.active,
+body.accent-green #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.accent-green #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#DDE485;}

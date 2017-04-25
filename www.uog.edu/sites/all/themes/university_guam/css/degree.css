@@ -1,0 +1,761 @@
+.node-type-degrees  .taged-spotlights .view-content{ border:0;}
+.back_degrees {
+	float:right;
+}
+#myTab .nav-tabs > .active > a, #myTab .nav-tabs > .active > a:hover, #myTab .nav-tabs > .active > a:focus {
+	border-bottom:inherit;
+}
+#myTab li a {
+	color: #000;
+	cursor: default;
+	margin-right: 20px;
+	cursor: pointer;
+	font-size: 18px;
+	position:relative;
+}
+#myTab > .active > a:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 36%;
+	top: 36px;
+	display: block;
+
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid;
+	font-size: 0;
+	line-height: 0;	
+}
+#myTab li a:focus { outline: none; } 
+
+.apply_now_btn {
+	padding: 10px;
+}
+.apply_now_btn a {
+	text-transform: uppercase;
+	display:block;
+	text-align:center;
+	font-weight: bold;
+	font-size: 2em;
+	border-radius: 5px;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+}
+.apply_now_btn a:hover {
+	text-decoration:none;
+}
+
+.apply_bottom {
+	padding: 10px;
+	margin-top: 10px; margin-bottom:20px;background: #f0f0f0;
+}
+.apply_bottom #accordion .panel-title a{ background:none !important;}
+.apply_bottom ul{padding-left: 25px;}
+.view-degree-program-detail .apply_bottom .degree_link {
+	margin-bottom: 10px;
+}
+#myTabContent {
+	margin-top:20px;
+}
+.degree_title {
+	font-weight:bold;
+}
+
+.node-type-degrees #page-title {
+	display:none;
+}
+.view-degree-program-detail .stdentspotlights {
+	padding:10px;
+}
+.view-degree-program-detail .stdentspotlights .flex-direction-nav {
+	display:none;
+}
+.view-degree-program-detail .taged-spotlights {
+	padding:0;
+}
+.view-degree-program-detail .tab-content{ overflow:initial;}
+
+.node-type-degrees #taged_spotlights{ background:none;}
+
+
+/**********************************************Blue Degree Theme ********************************/
+body.blue #myTab > .active > a:after {
+border-top-color: #00759A;
+}
+body.blue .taged-spotlights .views-field-field-short-titlep {
+	background:#00759A;
+}
+body.blue .degree_title, body.blue .school_name {
+	color:#00759A;
+}
+body.blue #myTab li a {
+	border: 1px solid #9ecde1;
+}
+body.blue #myTab {
+	border-bottom: 1px solid #9ecde1;
+}
+body.blue #myTab li.active a, body.blue #myTab li a:hover {
+	background-color: #00759A;
+	color:#FFFFFF;
+}
+body.blue #myTab > .active > a:after {
+	color: #00759A;
+}
+body.blue .apply_now_btn a {
+	color:#FFFFFF;
+	background: #00759A;
+	background-color: #2F2727;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#72a3c8), to(#00759A));
+	background: -webkit-radial-gradient(circle, #72a3c8, #00759A);
+	background: -moz-radial-gradient(circle, #72a3c8, #00759A);
+	background: -ms-radial-gradient(circle, #72a3c8, #00759A);
+}
+body.blue .apply_now_btn a:hover {
+	background: #00759A;
+	background-color: #2F2727;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#9CC2DF), to(#109DCA));
+	background: -webkit-radial-gradient(circle, #9CC2DF, #109DCA);
+	background: -moz-radial-gradient(circle, #9CC2DF, #109DCA);
+	background: -ms-radial-gradient(circle, #9CC2DF, #109DCA);
+}
+.body.blue .degree_link a, body.blue .back_degrees a {
+	color:#000000 ;
+	font-size:18px;
+}
+.view-degree-program-detail .apply_bottom .panel-group{ margin:0;}
+.view-degree-program-detail .apply_bottom  .panel-heading{ padding:0;}
+.view-degree-program-detail .apply_bottom .panel-body{ padding:0;}
+.apply_bottom .degree_link  a {color:#000000 !important; font-size:18px; font-weight:bold;}
+body.blue .back_degrees a {
+	font-size:14px;
+}
+body.blue .degree_link a:hover, body.blue .back_degrees a:hover {
+	color:#00759A;
+}
+body.blue .view-degree-program-detail .panel-default > .panel-heading{background-color: #00759A;border-color: #9ecde1;color: #FFF;}
+body.blue .view-degree-program-detail .panel-default{border-color: #9ecde1;}
+body.blue .view-degree-program-detail .panel-title > a{ color:#FFFFFF;}
+body.blue .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body, body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group{border-color: #9ecde1;}
+
+/**********************************************Purple Degree Theme ********************************/
+body.purple #myTab > .active > a:after {
+border-top-color: #00652E;
+}
+body.purple .taged-spotlights .views-field-field-short-titlep {
+	background:#00652E;
+}
+body.purple .degree_title, body.purple .school_name {
+	color:#00652E;
+}
+body.purple #myTab li a {
+	border: 1px solid #d8e8de;
+}
+body.purple #myTab {
+	border-bottom: 1px solid #d8e8de;
+}
+body.purple #myTab li.active a, body.purple #myTab li a:hover {
+	background-color: #00652E;
+	color:#FFFFFF;
+}
+body.purple #myTab > .active > a:after {
+	color: #00652E;
+}
+body.purple .apply_now_btn a {
+	color:#FFFFFF;
+	background: #00652E;
+	background-color: #00652E;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#935F8F), to(#00652E));
+	background: -webkit-radial-gradient(circle, #935F8F, #00652E)
+	background: -moz-radial-gradient(circle, #935F8F, #00652E);
+	background: -ms-radial-gradient(circle, #935F8F, #00652E);
+}
+body.purple .apply_now_btn a:hover {
+	background: #995194;
+	background-color: #995194;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#9B7A99), to(#995194));
+	background: -webkit-radial-gradient(circle, #9B7A99, #995194);
+	background: -moz-radial-gradient(circle, #9B7A99, #995194);
+	background: -ms-radial-gradient(circle, #9B7A99, #995194);
+}
+body.purple .degree_link a, body.purple .back_degrees a {
+	color:#000000;
+	font-size:18px;
+}
+body.purple .back_degrees a {
+	font-size:14px;
+}
+body.purple .degree_link a:hover, body.purple .back_degrees a:hover {
+	color:#00652E;
+}
+body.purple .view-degree-program-detail .panel-default > .panel-heading{background-color: #00652E;border-color: #d8e8de;color: #FFF;}
+body.purple .view-degree-program-detail .panel-default{border-color: #d8e8de;}
+body.purple .view-degree-program-detail .panel-title > a{ color:#FFFFFF;}
+body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body, body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group{border-color: #d8e8de;}
+
+
+/**********************************************accent-green Degree Theme ********************************/
+body.accent-green #myTab > .active > a:after {
+border-top-color: #A8B400;
+}
+
+body.accent-green .taged-spotlights .views-field-field-short-titlep {
+	background:#A8B400;
+}
+body.accent-green .degree_title, body.accent-green .school_name {
+	color:#A8B400;
+}
+body.accent-green #myTab li a {
+	border: 1px solid #E6EC94;
+}
+body.accent-green #myTab {
+	border-bottom: 1px solid #E6EC94;
+}
+body.accent-green #myTab li.active a, body.accent-green #myTab li a:hover {
+	background-color: #A8B400;
+	color:#FFFFFF;
+}
+body.accent-green #myTab > .active > a:after {
+	color: #A8B400;
+}
+body.accent-green .apply_now_btn a {
+	color:#FFFFFF;
+	background: #A8B400;
+	background-color: #A8B400;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#DDE56D), to(#A8B400));
+	background: -webkit-radial-gradient(circle, #DDE56D, #A8B400)
+	background: -moz-radial-gradient(circle, #DDE56D, #A8B400);
+	background: -ms-radial-gradient(circle, #DDE56D, #A8B400);
+}
+body.accent-green .apply_now_btn a:hover {
+	background: #C0CB23;
+	background-color: #C0CB23;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#E6EC94), to(#C0CB23));
+	background: -webkit-radial-gradient(circle, #E6EC94, #C0CB23)
+	background: -moz-radial-gradient(circle, #E6EC94, #C0CB23);
+	background: -ms-radial-gradient(circle, #E6EC94, #C0CB23);
+}
+body.accent-green .degree_link a, body.accent-green .back_degrees a {
+	color:#000000;
+	font-size:18px;
+}
+body.accent-green .back_degrees a {
+	font-size:14px;
+}
+body.accent-green .degree_link a:hover, body.accent-green .back_degrees a:hover {
+	color:#A8B400;
+}
+body.accent-green .view-degree-program-detail .panel-default > .panel-heading{background-color: #A8B400;border-color: #E6EC94;color: #FFF;}
+body.accent-green .view-degree-program-detail .panel-default{border-color: #E6EC94;}
+body.accent-green .view-degree-program-detail .panel-title > a{ color:#FFFFFF;}
+body.accent-green .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body, body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group{border-color: #E6EC94;}
+
+
+/**********************************************orange  Degree Theme ********************************/
+
+body.orange #myTab > .active > a:after {
+border-top-color: #D2492A;
+}
+
+body.orange .taged-spotlights .views-field-field-short-titlep {
+	background:#D2492A;
+}
+body.orange .degree_title, body.orange .school_name {
+	color:#D2492A;
+}
+body.orange #myTab li a {
+	border: 1px solid #FAB9AB;
+}
+body.orange #myTab {
+	border-bottom: 1px solid #FAB9AB;
+}
+body.orange #myTab li.active a, body.orange #myTab li a:hover {
+	background-color: #D2492A;
+	color:#FFFFFF;
+}
+body.orange #myTab > .active > a:after {
+	color: #D2492A;
+}
+body.orange .apply_now_btn a {
+	color:#FFFFFF;
+	background: #D2492A;
+	background-color: #D2492A;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAB9AB), to(#D2492A));
+	background: -webkit-radial-gradient(circle, #FAB9AB, #D2492A);
+	background: -moz-radial-gradient(circle, #FAB9AB, #D2492A);
+	background: -ms-radial-gradient(circle, #FAB9AB, #D2492A);
+}
+body.orange .apply_now_btn a:hover {
+	background: #F07356;
+	background-color: #F07356;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FAB9AB), to(#F07356));
+	background: -webkit-radial-gradient(circle, #FAB9AB, #F07356);
+	background: -moz-radial-gradient(circle, #FAB9AB, #F07356);
+	background: -ms-radial-gradient(circle, #FAB9AB, #F07356);
+}
+body.orange .degree_link a, body.orange .back_degrees a {
+	color:#000000;
+	font-size:18px;
+}
+body.orange .back_degrees a {
+	font-size:14px;
+}
+body.orange .degree_link a:hover, body.orange .back_degrees a:hover {
+	color:#D2492A;
+}
+body.orange .view-degree-program-detail .panel-default > .panel-heading{background-color: #D2492A;border-color: #FAB9AB;color: #FFF;}
+body.orange .view-degree-program-detail .panel-default{border-color: #FAB9AB;}
+body.orange .view-degree-program-detail .panel-title > a{ color:#FFFFFF;}
+body.orange .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body, body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group{border-color: #FAB9AB;}
+
+
+
+/**********************************************green  Degree Theme ********************************/
+
+body.purple #myTab > .active > a:after {
+border-top-color: #00652E;
+}
+
+
+body.purple .taged-spotlights .views-field-field-short-titlep {
+	background:#00652E;
+}
+body.purple .degree_title, body.purple .school_name {
+	color:#00652E;
+}
+body.purple #myTab li a {
+	border: 1px solid #3FD583;
+}
+body.purple #myTab {
+	border-bottom: 1px solid #3FD583;
+}
+body.purple #myTab li.active a, body.purple #myTab li a:hover {
+	background-color: #00652E;
+	color:#FFFFFF;
+}
+body.purple #myTab > .active > a:after {
+	color: #00652E;
+}
+body.purple .apply_now_btn a {
+	color:#FFFFFF;
+	background: #00652E;
+	background-color: #00652E;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#3FD583), to(#00652E));
+	background: -webkit-radial-gradient(circle, #3FD583, #00652E);
+	background: -moz-radial-gradient(circle, #3FD583, #00652E);
+	background: -ms-radial-gradient(circle, #3FD583, #00652E);
+}
+body.purple .apply_now_btn a:hover {
+	background: #35895B;
+	background-color: #35895B;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#3FD583), to(#35895B));
+	background: -webkit-radial-gradient(circle, #3FD583, #35895B);
+	background: -moz-radial-gradient(circle, #3FD583, #35895B);
+	background: -ms-radial-gradient(circle, #3FD583, #35895B);
+}
+body.purple .degree_link a, body.purple .back_degrees a {
+	color:#000000;
+	font-size:16px;
+}
+body.purple .back_degrees a {
+	font-size:14px;
+}
+body.purple .degree_link a:hover, body.purple .back_degrees a:hover {
+	color:#00652E;
+}
+
+body.purple .view-degree-program-detail .panel-default > .panel-heading{background-color: rgb(0, 101, 46);border-color: rgb(63, 213, 131);color: rgb(255, 255, 255);}
+body.purple .view-degree-program-detail .panel-default{border-color: rgb(63, 213, 131);}
+body.purple .view-degree-program-detail .panel-title > a{ color:#FFFFFF;}
+body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body, body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group{border-color: rgb(63, 213, 131);}
+
+
+
+
+
+
+
+
+
+.view-degree-program-detail .visible-xs,
+.view-degree-program-detail .visible-sm,
+.view-degree-program-detail .visible-md,
+.view-degree-program-detail .visible-lg {
+    display: none !important;
+}
+.view-degree-program-detail .visible-xs-block,
+.view-degree-program-detail .visible-xs-inline,
+.view-degree-program-detail .visible-xs-inline-block,
+.view-degree-program-detail .visible-sm-block,
+.view-degree-program-detail .visible-sm-inline,
+.view-degree-program-detail .visible-sm-inline-block,
+.view-degree-program-detail .visible-md-block,
+.view-degree-program-detail .visible-md-inline,
+.view-degree-program-detail .visible-md-inline-block,
+.view-degree-program-detail .visible-lg-block,
+.view-degree-program-detail .visible-lg-inline,
+.view-degree-program-detail .visible-lg-inline-block {
+    display: none !important;
+}
+@media (max-width: 767px) {
+   .view-degree-program-detail  .visible-xs {
+        display: block !important;
+    }
+
+}
+@media (max-width: 767px) {
+   .view-degree-program-detail  .visible-xs-block {
+        display: block !important;
+    }
+}
+@media (max-width: 767px) {
+   .view-degree-program-detail  .visible-xs-inline {
+        display: inline !important;
+    }
+}
+@media (max-width: 767px) {
+   .view-degree-program-detail  .visible-xs-inline-block {
+        display: inline-block !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .view-degree-program-detail  .visible-sm {
+        display: block !important;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .view-degree-program-detail  .visible-sm-block {
+        display: block !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .view-degree-program-detail  .visible-sm-inline {
+        display: inline !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   .view-degree-program-detail  .visible-sm-inline-block {
+        display: inline-block !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .view-degree-program-detail   .visible-md {
+        display: block !important;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   .view-degree-program-detail  .visible-md-block {
+        display: block !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   .view-degree-program-detail  .visible-md-inline {
+        display: inline !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .view-degree-program-detail   .visible-md-inline-block {
+        display: inline-block !important;
+    }
+}
+@media (min-width: 1200px) {
+  .view-degree-program-detail   .visible-lg {
+        display: block !important;
+    }
+
+}
+@media (min-width: 1200px) {
+   .view-degree-program-detail  .visible-lg-block {
+        display: block !important;
+    }
+}
+@media (min-width: 1200px) {
+   .view-degree-program-detail  .visible-lg-inline {
+        display: inline !important;
+    }
+}
+@media (min-width: 1200px) {
+  .view-degree-program-detail   .visible-lg-inline-block {
+        display: inline-block !important;
+    }
+}
+@media (max-width: 767px) {
+   .view-degree-program-detail  .hidden-xs {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .view-degree-program-detail   .hidden-sm {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   .view-degree-program-detail  .hidden-md {
+        display: none !important;
+    }
+}
+
+
+
+
+
+.view-degree-program-detail .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.view-degree-program-detail .panel-body {
+    padding: 15px;
+}
+.view-degree-program-detail .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.view-degree-program-detail .panel-heading > .dropdown .dropdown-toggle {
+    color: inherit;
+}
+.view-degree-program-detail .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.view-degree-program-detail .panel-title > a,
+.view-degree-program-detail .panel-title > small,
+.view-degree-program-detail .panel-title > .small,
+.view-degree-program-detail .panel-title > small > a,
+.view-degree-program-detail .panel-title > .small > a {
+    color: inherit;
+}
+.view-degree-program-detail .panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.view-degree-program-detail .panel > .list-group,
+.view-degree-program-detail .panel > .panel-collapse > .list-group {
+    margin-bottom: 0;
+}
+.view-degree-program-detail .panel > .list-group .list-group-item,
+.view-degree-program-detail .panel > .panel-collapse > .list-group .list-group-item {
+    border-width: 1px 0;
+    border-radius: 0;
+}
+.view-degree-program-detail .panel > .list-group:first-child .list-group-item:first-child,
+.view-degree-program-detail .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+    border-top: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.view-degree-program-detail .panel > .list-group:last-child .list-group-item:last-child,
+.view-degree-program-detail .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+    border-bottom: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.view-degree-program-detail .panel-heading + .list-group .list-group-item:first-child {
+    border-top-width: 0;
+}
+.view-degree-program-detail .list-group + .panel-footer {
+    border-top-width: 0;
+}
+.view-degree-program-detail .panel-group {
+    margin-bottom: 20px;
+}
+.view-degree-program-detail .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.view-degree-program-detail .panel-group .panel + .panel {
+    margin-top: 5px;
+}
+.view-degree-program-detail .panel-group .panel-heading {
+    border-bottom: 0;
+}
+.view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body,
+.view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: 1px solid #ddd;
+}
+.view-degree-program-detail .panel-group .panel-footer {
+    border-top: 0;
+}
+.view-degree-program-detail .panel-group .panel-footer + .panel-collapse .panel-body {
+    border-bottom: 1px solid #ddd;
+}
+.view-degree-program-detail .panel-default {
+    border-color: #ddd;
+}
+.view-degree-program-detail .panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.view-degree-program-detail .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.view-degree-program-detail .panel-default > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+.view-degree-program-detail .panel-default > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ddd;
+}
+.view-degree-program-detail .panel-primary {
+    border-color: #337ab7;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+.degree_title, .school_name{ text-align:center;}
+.back_degrees{ float:none; text-align:center; padding-bottom:20px;}
+.apply_bottom .panel-group{ margin-bottom:0;}
+.apply_bottom .panel-group .panel-heading{ padding:0;}
+.node-type-degrees .breadcrumb-container .breadcrumb{ text-align:center; display:block;}
+ .degree_link a{ color:#000 !important;}
+
+}
+
+
+
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+    color: inherit;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+    color: inherit;
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel > .list-group,
+.panel > .panel-collapse > .list-group {
+    margin-bottom: 0;
+}
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item {
+    border-width: 1px 0;
+    border-radius: 0;
+}
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+    border-top: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+    border-bottom: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-heading + .list-group .list-group-item:first-child {
+    border-top-width: 0;
+}
+.list-group + .panel-footer {
+    border-top-width: 0;
+}
+.panel-group {
+    margin-bottom: 20px;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.panel-group .panel + .panel {
+    margin-top: 5px;
+}
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: 1px solid #ddd;
+}
+.panel-group .panel-footer {
+    border-top: 0;
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+    border-bottom: 1px solid #ddd;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.panel-default > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ddd;
+}
+.panel-primary {
+    border-color: #337ab7;
+}

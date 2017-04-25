@@ -1,0 +1,44 @@
+/**
+ * @file
+ * minisite-internal-page panel layout
+**/
+
+.minisite-internal-page-container {
+  margin-bottom: 1em;
+}
+
+.minisite-internal-page-column-content-region {
+  min-height: 1px;
+  width: 23.0769%%;
+  float: left;
+}
+
+  .minisite-internal-page-column-content-region-inner {
+    margin-right: 20px;
+  }
+
+  .minisite-internal-page-column2 {
+    width:14.5299%%;
+  }
+  
+    .minisite-internal-page-column2-inner {
+      margin-right: 0;
+    }
+  
+  .minisite-internal-page-content {
+    width: 57.265%%;
+  }
+  
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .minisite-internal-page-column-content-region,
+  .minisite-internal-page-column2,
+  .minisite-internal-page-content {
+    width: 100%;
+    float: none;
+  }
+  
+  .minisite-internal-page-column-content-region-inner {
+    margin-right: 0;
+  }
+}

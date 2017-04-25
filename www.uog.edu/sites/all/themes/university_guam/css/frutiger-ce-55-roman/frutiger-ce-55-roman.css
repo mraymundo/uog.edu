@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FrutigerCE55RomanRegular';
+    src: url('frutiger-ce-55-roman.eot');
+    src: url('frutiger-ce-55-roman.eot') format('embedded-opentype'),
+         url('frutiger-ce-55-roman.woff') format('woff'),
+         url('frutiger-ce-55-roman.ttf') format('truetype'),
+         url('frutiger-ce-55-roman.svg#FrutigerCE55RomanRegular') format('svg');
+}

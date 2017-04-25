@@ -1,0 +1,44 @@
+/**
+ * @file
+ * admission-minisite-internal-page panel layout
+**/
+
+.admission-minisite-internal-page-container {
+  margin-bottom: 1em;
+}
+
+.admission-minisite-internal-page-column-content-region {
+  min-height: 1px;
+  width: 23.0769%%;
+  float: left;
+}
+
+  .admission-minisite-internal-page-column-content-region-inner {
+    margin-right: 20px;
+  }
+
+  .admission-minisite-internal-page-column2 {
+    width:14.5299%%;
+  }
+  
+    .admission-minisite-internal-page-column2-inner {
+      margin-right: 0;
+    }
+  
+  .admission-minisite-internal-page-content {
+    width: 57.265%%;
+  }
+  
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .admission-minisite-internal-page-column-content-region,
+  .admission-minisite-internal-page-column2,
+  .admission-minisite-internal-page-content {
+    width: 100%;
+    float: none;
+  }
+  
+  .admission-minisite-internal-page-column-content-region-inner {
+    margin-right: 0;
+  }
+}

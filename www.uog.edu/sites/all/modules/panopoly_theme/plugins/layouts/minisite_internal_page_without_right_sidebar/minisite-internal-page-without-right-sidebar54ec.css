@@ -1,0 +1,75 @@
+/**
+ * @file
+ * minisite-internal-page panel layout
+**/
+
+.minisite-internal-page-container {
+  margin-bottom: 1em;
+}
+
+.minisite-internal-page-column-content-region {
+  min-height: 1px;
+  width: 23.0769%%;
+  float: left;
+}
+
+  .minisite-internal-page-column-content-region-inner {
+    margin-right: 20px;
+  }
+
+  .minisite-internal-page-column2 {
+    width:14.5299%%;
+  }
+  
+    .minisite-internal-page-column2-inner {
+      margin-right: 0;
+    }
+  
+  .minisite-internal-page-content {
+    width: 57.265%%;
+  }
+  
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .minisite-internal-page-column-content-region,
+  .minisite-internal-page-column2,
+  .minisite-internal-page-content {
+    width: 100%;
+    float: none;
+  }
+  
+  .minisite-internal-page-column-content-region-inner {
+    margin-right: 0;
+  }
+}
+
+
+
+
+.mobile_menu .lines {
+    border-radius: 3px;
+    display: block;
+    float: right;
+    margin: 0px;
+    padding: 2px 19px;
+    width: 36px;
+}
+.mobile_menu .line {
+    display: block;
+    height: 2px;
+    width: 26px;
+    margin: 5px auto;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#minisites .mobile_menu{padding: 5px; color:#FFFFFF;cursor: pointer;}
+.blue #minisites .mobile_menu{background: rgb(0, 117, 154) none repeat scroll 0% 0%;}
+.orange #minisites .mobile_menu{background: #D2492A;}
+
+.mobile_menu .menu_title{line-height: normal;font-size: 20px; color:#FFFFFF;padding-left: 15px;}
+#minisite .mobile_content{ display:none;}
+@media only screen and (max-width: 767px) {
+#minisites.sbpa .menu-block-wrapper .menu,#minisites .destop_content{ display:none;}
+#minisites .mobile_menu,#minisite .mobile_content{display: block;}
+
+}

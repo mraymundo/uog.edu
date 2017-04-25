@@ -1,0 +1,51 @@
+body.purple{}
+
+body.purple a,
+body.purple h3,
+body.purple h6{color:#00652E;}
+
+body.purple #sub_header .top,
+body.purple #sub_header .slider{ background-color:#00652E;}
+
+body.purple #minisites .left_area .pane-views-panes .pane-title,
+body.purple #minisites .left_area .pane-menu-tree .pane-title,
+body.purple #minisites .link_list.helpful h3,
+body.purple #minisites .left_area .pane-views-panes li.expanded  h3,
+body.purple #minisites .left_area .menu-block-wrapper li.expanded h3{color:#00652E;}
+
+body.purple #minisites .left_area .pane-views-panes a:hover,
+body.purple #minisites .left_area .pane-views-panes a.active,
+body.purple #minisites .link_list.helpful a:hover,
+body.purple #minisites .link_list.helpful a.active,
+body.purple #minisites .left_area .menu-block-wrapper li a:hover,
+body.purple #minisites .left_area .menu-block-wrapper li a.active{ background-color:#00652E;}
+
+body.purple #minisites #news_calendar .row-fluid{ background-color:#d8e8de;}
+body.purple #minisites #news_calendar .row-fluid.even{ background-color:#E7E7E8;}
+
+body.purple #minisites #events,
+body.purple .pane-home-events-panel-pane-2{background-color:#A5CFB5;}
+
+body.purple #minisites #pagearea-minisites hr{border-color:#00652E;}
+body.purple a.apply-btn{ background-color:#00652E;}
+
+body.purple #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-purple.png) no-repeat}
+body.purple #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-purple.png) no-repeat}
+
+
+body.purple .container h1#page-title,
+body.purple #slider_block .sub_menu,
+body.purple #slider_block .slider .caption{background-color:#00652E;}
+
+body.purple .financial .pane-home-events-panel-pane-1,
+body.purple .admission .pane-home-events-panel-pane-1{background-color:#d8e8de; color:#00652E;}
+
+body.purple .financial .minisite-events ul li.views-row .views-field-title a,
+body.purple .financial .minisite-events ul li.views-row h4,
+body.purple .financial .mid_area .block h4{ color:#00652E;}
+
+body.purple #slider_block .sub_menu li a:hover,
+body.purple #slider_block .sub_menu li a.active,
+body.purple #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.purple #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#b6c335;}
+

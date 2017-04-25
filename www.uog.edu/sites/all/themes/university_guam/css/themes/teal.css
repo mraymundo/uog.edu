@@ -1,0 +1,66 @@
+body.teal{}
+
+body.teal a,
+body.teal h3,
+body.teal h6{color:#008080;}
+
+body.teal #sub_header .top,
+body.teal #sub_header .slider{ background-color:#008080;}
+
+body.teal #minisites .left_area .pane-views-panes .pane-title,
+body.teal #minisites .left_area .pane-menu-tree .pane-title,
+body.teal #minisites .link_list.helpful h3,
+body.teal #minisites .left_area .pane-views-panes li.expanded  h3,
+body.teal #minisites .left_area .menu-block-wrapper li.expanded h3{color:#008080;}
+
+body.teal #minisites .left_area .pane-views-panes a:hover,
+body.teal #minisites .left_area .pane-views-panes a.active,
+body.teal #minisites .link_list.helpful a:hover,
+body.teal #minisites .link_list.helpful a.active,
+body.teal #minisites .left_area .menu-block-wrapper li a:hover,
+body.teal #minisites .left_area .menu-block-wrapper li a.active{ background-color:#008080;}
+
+body.teal #minisites #news_calendar .row-fluid{ background-color:#00ACA8;}
+
+body.teal #minisites #pagearea-minisites hr{border-color:#008080;}
+body.teal a.apply-btn{ background-color:#008080;}
+body.teal .directory_more_details a {background: #008080;}
+body.teal .jq_close:hover {color: #008080;}
+.blue .sbpa .view-news-announcements .views-row a{color: #008080 !important;}
+
+body.teal #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-teal.html) no-repeat}
+body.teal #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-teal.html) no-repeat}
+
+body.teal .container h1#page-title,
+body.teal #slider_block .sub_menu,
+body.teal #slider_block .slider .caption{background-color:#008080;}
+
+body.teal .financial .pane-home-events-panel-pane-1,
+body.teal .admission .pane-home-events-panel-pane-1{background-color:#DFF2F5; color:#008080;}
+.teal .sbpa .view-news-announcements .views-row .views-field-view-node a {background: #008080;border-radius: 5px;color: rgb(255, 255, 255) !important;font-weight: bold;padding: 3px 20px;}
+body.teal .financial .minisite-events ul li.views-row .views-field-title a,
+body.teal .financial .minisite-events ul li.views-row h4,
+body.teal .financial .mid_area .block h4{ color:#008080;}
+
+body.teal #slider_block .sub_menu li a:hover,
+body.teal #slider_block .sub_menu li a.active,
+body.teal #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.teal #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#00ACA8;}
+
+
+body.teal .sbpa h3, body.teal .sbpa .pane-title{ color:#008080;}
+.teal .sbpa .view-news-announcements .views-row-odd{background: rgba(0, 172, 168, 0.1);}
+.teal .sbpa .view-news-announcements .views-row .views-field-view-node a{background: #008080;}
+body.teal .sbpa a, body.teal .sbpa h3, body.teal .sbpa h6{color: #008080;}
+
+body.teal .sbpa .left_area .menu, body.teal .sbpa .pane-menu-school-of-business-public{background: rgba(0, 172, 168, 0.3);}
+body.teal .sbpa .taged-spotlights .views-field-field-short-titlep{background: #008080;}
+.teal .sbpa .minisite-events ul li.views-row .views-field-title a{color: #008080;}
+body.teal.sbpa_site .container h1#page-title, body.teal.sbpa_site #slider_block .sub_menu, body.teal.sbpa_site #slider_block .slider .caption{background-color: #008080;}
+.teal .directory_description_right{background: rgba(0, 172, 168, 0.2);}
+.teal .sbpa .view-news-announcements .views-row{padding: 15px;margin-bottom: 25px;}
+.teal #minisites.sbpa .left_area .menu-block-wrapper li.first{border-top: 5px solid rgba(0, 172, 168, 0.3);}
+
+.teal #minisites.sbpa .left_area .menu-block-wrapper li.expanded:hover{background: rgba(0, 172, 168, 0.3);}
+.teal #minisites.sbpa .left_area .menu-block-wrapper li li.first{ border-top:none;}
+.teal #minisites.sbpa .left_area .menu-block-wrapper li.expanded:hover h3{background: #008080;}

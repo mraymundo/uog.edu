@@ -1,0 +1,49 @@
+body.orange{}
+
+body.orange a,
+body.orange h3,
+body.orange h6{color:#D2492A;}
+
+body.orange #sub_header .top,
+body.orange #sub_header .slider{ background-color:#D2492A;}
+
+body.orange #minisites .left_area .pane-views-panes .pane-title,
+body.orange #minisites .left_area .pane-menu-tree .pane-title,
+body.orange #minisites .link_list.helpful h3,
+body.orange #minisites .left_area .pane-views-panes li.expanded  h3,
+body.orange #minisites .left_area .menu-block-wrapper li.expanded h3{color:#D2492A;}
+
+body.orange #minisites .left_area .pane-views-panes a:hover,
+body.orange #minisites .left_area .pane-views-panes a.active,
+body.orange #minisites .link_list.helpful a:hover,
+body.orange #minisites .link_list.helpful a.active,
+body.orange #minisites .left_area .menu-block-wrapper li a:hover,
+body.orange #minisites .left_area .menu-block-wrapper li a.active{ background-color:#D2492A;}
+
+body.orange #minisites #news_calendar .row-fluid{ background-color:#FAB9AB;}
+body.orange #minisites #news_calendar .row-fluid.even{ background-color:#E6E6E6;}
+
+body.orange #minisites #events,
+body.orange .pane-home-events-panel-pane-2{background-color:#EE7C63;}
+
+body.orange #minisites #pagearea-minisites hr{border-color:#D2492A;}
+body.orange a.apply-btn{ background-color:#D2492A;}
+
+body.orange #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-orange.png) no-repeat}
+body.orange #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-orange.png) no-repeat}
+
+body.orange .container h1#page-title,
+body.orange #slider_block .sub_menu,
+body.orange #slider_block .slider .caption{background-color:#D2492A;}
+
+body.orange .financial .pane-home-events-panel-pane-1,
+body.orange .admission .pane-home-events-panel-pane-1{background-color:#FAB9AB; color:#D2492A;}
+
+body.orange .financial .minisite-events ul li.views-row .views-field-title a,
+body.orange .financial .minisite-events ul li.views-row h4,
+body.orange .financial .mid_area .block h4{ color:#D2492A;}
+
+body.orange #slider_block .sub_menu li a:hover,
+body.orange #slider_block .sub_menu li a.active,
+body.orange #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.orange #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#EC9682;}

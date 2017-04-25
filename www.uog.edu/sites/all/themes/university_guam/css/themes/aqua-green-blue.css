@@ -1,0 +1,47 @@
+body.aqua-green-blue{}
+
+body.aqua-green-blue a,
+body.aqua-green-blue h3,
+body.aqua-green-blue h6{color:#0b9494;}
+
+body.aqua-green-blue #sub_header .top,
+body.aqua-green-blue #sub_header .slider{ background-color:#0b9494;}
+
+body.aqua-green-blue #minisites .left_area .pane-views-panes .pane-title,
+body.aqua-green-blue #minisites .left_area .pane-menu-tree .pane-title,
+body.aqua-green-blue #minisites .link_list.helpful h3,
+body.aqua-green-blue #minisites .left_area .pane-views-panes li.expanded  h3,
+body.aqua-green-blue #minisites .left_area .menu-block-wrapper li.expanded h3{color:#0b9494;}
+
+body.aqua-green-blue #minisites .left_area .pane-views-panes a:hover,
+body.aqua-green-blue #minisites .left_area .pane-views-panes a.active,
+body.aqua-green-blue #minisites .link_list.helpful a:hover,
+body.aqua-green-blue #minisites .link_list.helpful a.active,
+body.aqua-green-blue #minisites .left_area .menu-block-wrapper li a:hover,
+body.aqua-green-blue #minisites .left_area .menu-block-wrapper li a.active{ background-color:#0b9494;}
+
+body.aqua-green-blue #minisites #news_calendar .row-fluid{ background-color:#9CD3D3;}
+body.aqua-green-blue #minisites #events,
+body.aqua-green-blue .pane-home-events-panel-pane-2{background-color:#50B2B2;}
+
+body.aqua-green-blue #minisites #pagearea-minisites hr{border-color:#0b9494;}
+body.aqua-green-blue a.apply-btn{ background-color:#0b9494;}
+
+body.aqua-green-blue #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-prev:hover{background:url(../img/left-arrow-aqua-green-blue.png) no-repeat}
+body.aqua-green-blue #minisites.college-school .slider .bx-wrapper .bx-controls-direction a.bx-next:hover{background:url(../img/right-arrow-aqua-green-blue.png) no-repeat}
+
+body.aqua-green-blue .container h1#page-title,
+body.aqua-green-blue #slider_block .sub_menu,
+body.aqua-green-blue #slider_block .slider .caption{background-color:#0b9494;}
+
+body.aqua-green-blue .financial .pane-home-events-panel-pane-1,
+body.aqua-green-blue .admission .pane-home-events-panel-pane-1{background-color:#9CD3D3; color:#0b9494;}
+
+body.aqua-green-blue .financial .minisite-events ul li.views-row .views-field-title a,
+body.aqua-green-blue .financial .minisite-events ul li.views-row h4,
+body.aqua-green-blue .financial .mid_area .block h4{ color:#0b9494;}
+
+body.aqua-green-blue #slider_block .sub_menu li a:hover,
+body.aqua-green-blue #slider_block .sub_menu li a.active,
+body.aqua-green-blue #slider_block .sub_menu .menu-block-wrapper > .menu > li a:hover,
+body.aqua-green-blue #slider_block .sub_menu .menu-block-wrapper > .menu > li a.active{ background-color:#FADF98;}
