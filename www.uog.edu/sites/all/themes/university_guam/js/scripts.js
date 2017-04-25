@@ -10,7 +10,9 @@ includecss=function(url) {
 includejs(sitebasepath+thisfolderpath+"jquery.mousewheel.js");
 includejs(sitebasepath+thisfolderpath+"collapse.js");*/
 
-requirejs(["bootstrap-tabcollapse"], function(tabCollapse) {});
+
+
+
 
 
  
@@ -117,9 +119,10 @@ ON_LOAD=function(){
 		jQuery('#views-exposed-form-directory-db-page-3').prop('action', '/browse-by-experts');
 	
 	
-
+requirejs(["bootstrap-tabcollapse"], function(tabCollapse) {
 	jQuery('#myTab').tabCollapse();
 	jQuery('#minisiteTab').tabCollapse();
+});
 
 
 	jQuery(".view-degree-program-detail .nav-tabs li.tab_link a").unbind('click');
