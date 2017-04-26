@@ -271,6 +271,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <div id="skip-link"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a> </div>
 
     <div id="nakainer" class="custom_header">
+        <!--***BEGIN MINI PAGE HEADER-->
         <div id="page-wrapper">
             <div id="page">
                 <div id="header" role="banner" class="with-secondary-menu">
@@ -287,6 +288,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                 </div>
                                             </div>
                                             <div class="span8 text-right">
+                                                <!--***BEGIN SEARCH BAR-->
                                                 <div id="search">
                                                     <div class="input-append pull-right">
                                                         <div class="region region-search">
@@ -312,7 +314,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                                     </div>
                                                 </div>
+                                                <!--***END SEARCH BAR-->
                                                 <div class="top_menu">
+                                                    <!--***BEGIN TOP MENU-->
+                                                    <!--NOTE - "top_menu" div contains main menu toggle. Actual top menu is contained in region-top-menu div-->
                                                     <div class="region region-top-menu">
                                                         <nav id="block-menu-menu-top-menu" class="block block-menu" role="navigation">
 
@@ -348,13 +353,18 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--***END TOP MENU-->
+                                                    <!--***BEGIN MAIN MENU TOGGLE BUTTON-->
                                                     <div class="custom_menu">
                                                         <button type="button" class="custom_menu_toggle" title="Toggle Main Navigation"> <span class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span><span class="hide-text">Toggle Dropdown</span></button>
                                                     </div>
+                                                    <!--***END MAIN MENU TOGGLE BUTTON-->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!--***BEGIN MAIN MENU-->
+                                    <!--NOTE - Hidden be default in mini site-->
                                     <div id="menu">
                                         <div class="container">
                                             <div class="region region-main-menu">
@@ -1723,6 +1733,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                             </div>
                                         </div>
                                     </div>
+                                    <!--***END MAIN MENU-->
                                 </div>
                                 <!-- /.nav-collapse -->
                             </div>
@@ -1739,6 +1750,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                 <!-- /.section, /#header -->
             </div>
         </div>
+        <!--***END MINI PAGE HEADER-->
         <div id="content" class="column">
             <div class="section">
                 <a id="main-content"></a>

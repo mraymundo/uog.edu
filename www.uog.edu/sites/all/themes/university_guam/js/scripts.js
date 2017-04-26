@@ -119,7 +119,7 @@ ON_LOAD=function(){
 		jQuery('#views-exposed-form-directory-db-page-3').prop('action', '/browse-by-experts');
 	
 	
-requirejs(["bootstrap-tabcollapse"], function(tabCollapse) {
+requirejs(["bootstrap-tabcollapse"], function() {
 	jQuery('#myTab').tabCollapse();
 	jQuery('#minisiteTab').tabCollapse();
 });

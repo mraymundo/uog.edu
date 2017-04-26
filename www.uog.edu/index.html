@@ -186,7 +186,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Situated in the heart of Mangilao overlooking beautiful Pago Bay, the University of Guam campus boasts a breathtaking ocean view, cool breezes, and modern, island-inspired architecture." />
     <meta name="keywords" content="university of guam, uog, guam higher education, guam college,College of Liberal Arts and Social Sciences, College of Natural and Applied Sciences, School of Business and Public Administration, School of Nursing and Health Sciences, School of Education, tritons, uog fieldhouse, guam admissions, guam alumni" />
-    <meta name="generator" content="Drupal 7 (http://drupal.org)" />
+    <!--<meta name="generator" content="Drupal 7 (http://drupal.org)" />-->
     <link rel="canonical" href="index.html" />
     <link rel="shortlink" href="index.html" />
     <!--
@@ -257,19 +257,22 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
             js.src = "../connect.facebook.net/en_US/all.js#xfbml=1&appId=672410329438343";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <div id="skip-link"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a> </div>
+        <div id="skip-link"> <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a> </div>
 
     <div id="nakainer">
 
 
         <div id="page-wrapper">
             <div id="page">
+                <!--***BEGIN HEADER-->
                 <div id="header" role="banner" class="with-secondary-menu">
                     <div class="section clearfix">
                         <div class="navbar">
                             <div class="navbar-inner">
+                                <!--NOTE - "Toggle Main Navigation" button is hidden on global header. Only becomes visible in school page header.-->
                                 <button type="button" class="btn-navbar navbar-toggle" title="Toggle Main Navigation"> <span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span><span class="hide-text">Toggle Dropdown</span></button>
                                 <div id="top-nav" class="nav-collapse">
+                                    <!--***BEGIN TOPBAR (contains main UOG logo; links to Directory, Contact, etc. (aka TOP MENU); login button; social media links; and search bar-->
                                     <div id="topbar" class="container">
                                         <div class="row-fluid">
                                             <div class="hidden-phone span4">
@@ -279,6 +282,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                             </div>
                                             <div class="span8 text-right">
                                                 <div class="top_menu">
+                                                    <!--***BEGIN TOP MENU-->
                                                     <div class="region region-top-menu">
                                                         <nav id="block-menu-menu-top-menu" class="block block-menu" role="navigation">
 
@@ -315,7 +319,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="region region-top-social-links">
+                                                    <!--***END TOP MENU-->
+                                                    <!--***BEGIN SOCIAL MEDIA LINKS-->
+                                                        <div class="region region-top-social-links">
                                                         <div id="block-block-3" class="block block-block">
 
 
@@ -324,7 +330,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!--***END SOCIAL MEDIA LINKS-->
                                                 </div>
+                                                <!--***BEGIN SEARCH BAR-->
                                                 <div id="search">
                                                     <div class="input-append pull-right">
                                                         <div class="region region-search">
@@ -349,9 +357,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <!--***END SEARCH BAR-->
                                             </div>
                                         </div>
                                     </div>
+                                    <!--***END TOPBAR-->
+                                    <!--***BEGIN MAIN MENU-->
                                     <div id="menu">
                                         <div class="container">
                                             <div class="region region-main-menu">
@@ -1720,6 +1731,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                             </div>
                                         </div>
                                     </div>
+                                    <!--***END MAIN MENU-->
                                 </div>
                                 <!-- /.nav-collapse -->
                             </div>
@@ -1728,12 +1740,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         <!-- /.navbar-inner -->
                     </div>
                 </div>
+                <!--***END HEADER-->
                 <div id="phone-logo" class="visible-phone">
                     <div class="logo">
                         <a href="index.html" title="University of Guam logo" rel="home" id="logo"> <img src="sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
                     </div>
                 </div>
                 <!-- /.section, /#header -->
+                <!--***BEGIN MAIN IMAGE SLIDER-->
                 <div id="slider">
                     <div class="region region-slider">
                         <div id="block-views-slide-show-block" class="block block-views">
@@ -1770,6 +1784,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         </div>
                     </div>
                 </div>
+                <!--***END MAIN IMAGE SLIDER-->
                 <div id="content" class="column">
                     <div class="section">
                         <a id="main-content"></a>
@@ -1786,6 +1801,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                     <div id="news_events">
                                         <div class="container">
                                             <div class="row-fluid">
+                                                <!--***BEGIN QUICK LINKS BOX-->
                                                 <div class="span3">
                                                     <div id="quick_links">
                                                         <div class="panel-pane pane-block pane-menu-menu-quick-links pane-plain-box-temporary-2ea099fb08cd8adda4380527e1215ebe pane-menu">
@@ -1819,9 +1835,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <!--***END QUICK LINKS BOX-->
                                                 <div class="span9">
                                                     <div id="news_events_container">
                                                         <div class="row-fluid">
+                                                            <!--***BEGIN NEWS & ANNOUNCEMENTS BOX-->
                                                             <div class="span8">
                                                                 <div id="news">
                                                                     <div class="panel-pane pane-views-panes pane-news-announcements-panel-pane-1">
@@ -1895,6 +1913,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                                                 </div>
                                                             </div>
+                                                            <!--***END NEWS & ANNOUNCEMENTS BOX-->
+                                                            <!--***BEGIN EVENTS BOX-->
                                                             <div class="span4">
                                                                 <div id="events">
                                                                     <div class="panel-pane pane-views-panes pane-home-events-panel-pane-1">
@@ -1972,6 +1992,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                                                 </div>
                                                             </div>
+                                                            <!--***END EVENTS BOX-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1980,6 +2001,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                     </div>
                                     <div id="featured_links" class="container">
                                         <div class="row-fluid">
+                                            <!--***BEGIN FEATURED LINKS BOX-->
                                             <div class="span8">
                                                 <div id="featured">
 
@@ -2105,7 +2127,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                     <div class="separate"></div>
                                                 </div>
                                             </div>
+                                            <!--***END FEATURED LINKS BOX-->
                                             <div class="span4">
+                                                <!--***BEGIN PROGRAMS BOX-->
                                                 <div id="programs">
                                                     <div class="panel-pane pane-views-panes pane-degrees-programs-panel-pane-1">
 
@@ -2430,7 +2454,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 
                                                     </div>
-                                                </div>
+                                                </div><!--***END PROGRAMS BOX-->
+                                                <!--***BEGIN SCHOOLS & COLLEGES BOX-->
                                                 <div class="panel-pane pane-block pane-block-8 pane-block schools-colleges">
 
                                                     <h2 class="pane-title">
@@ -2444,6 +2469,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 
                                                 </div>
+                                                <!--***END SCHOOLS & COLLEGES BOX-->
                                                 <div class="panel-separator"></div><div class="panel-pane pane-block pane-block-50 pane-block">
 
 
@@ -2454,19 +2480,21 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 
                                                 </div>
-                                                <div class="panel-separator"></div><div class="panel-pane pane-block pane-block-49 pane-block">
+                                                <!--<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-49 pane-block">-->
 
 
 
-                                                    <div class="pane-content">
+                                                    <!--***BEGIN MEDIA BOX-->
+                                                        <div class="pane-content">
                                                         <p style="text-align: right;"><img src="sites/default/files/erica_pangelinan_thumb_0.jpg" alt="UOG" width="1529" height="1375" /></p>
-                                                    </div>
+                                                    </div><!--***END MEDIA BOX-->
 
 
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!--***BEGIN MORE OR APPLY BOX-->
                                     <div class="container">
                                         <div class="panel-pane pane-fieldable-panels-pane pane-fpid-2 pane-bundle-text">
 
@@ -2502,7 +2530,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                         </div>
                                     </div>
+                                    <!--***END MORE OR APPLY BOX-->
 
+                                    
+                                    <!--***BEGIN TEASER BOXES-->
                                     <div id="teaser_scroll">
                                         <div id="teaser" class="container">
                                             <div id="teaser_container">
@@ -2561,6 +2592,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                             </div>
                                         </div>
                                     </div>
+                                    <!--***END TEASER BOXES-->
 
                                 </div>
                                 <!-- /.pond -->
@@ -2568,6 +2600,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         </div>
                     </div>
                 </div>
+                <!--***BEGIN FOOTER-->
                 <div id="footer">
                     <div class="container">
                         <div class="row-fluid">
@@ -2703,6 +2736,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         </div>
                     </div>
                 </div>
+                <!--***END FOOTER-->
             </div>
             <!-- #pagearea-->
         </div>
