@@ -16,3 +16,6 @@
 
 
 --4/26/17--
+	1. Formatted index.html and class-home.html
+	2. Moved analytics.js from www.google-analytics.com folder to sites/all/themes/university_guam/js/
+	3. Moved jquery.min.js from www.ajax.googleapis.com/.../ folder to sites/all/themes/university_guam/js/
