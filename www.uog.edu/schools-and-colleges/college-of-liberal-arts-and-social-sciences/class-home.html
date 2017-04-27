@@ -196,7 +196,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         var sitebasepthjs = '';
     </script>
     <!--<script src="../../sites/all/themes/university_guam/js/scripts2e09.js?random=58d84e03cdecb"></script>-->
-    <!--**********************************************************-->
     <script src="../../sites/all/themes/university_guam/js/bootstrap.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Situated in the heart of Mangilao overlooking beautiful Pago Bay, the University of Guam campus boasts a breathtaking ocean view, cool breezes, and modern, island-inspired architecture." />
@@ -322,7 +321,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                 <!--***END SEARCH BAR-->
                                                 <div class="top_menu">
                                                     <!--***BEGIN TOP MENU-->
-                                                    <!--NOTE - "top_menu" div contains main menu toggle. Actual top menu is contained in region-top-menu div-->
+                                                    <!--NOTE - "top_menu" div contains main menu toggle button. Isolated top menu is contained in region-top-menu div-->
                                                     <div class="region region-top-menu">
                                                         <nav id="block-menu-menu-top-menu" class="block block-menu" role="navigation">
 
@@ -369,7 +368,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                         </div>
                                     </div>
                                     <!--***BEGIN MAIN MENU-->
-                                    <!--NOTE - Hidden be default in mini site-->
+                                    <!--NOTE - Hidden by default in mini site-->
                                     <div id="menu">
                                         <div class="container">
                                             <div class="region region-main-menu">
@@ -1763,7 +1762,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         </div>
         <div id="pagearea">
             <div class="container">
-                <a id="main-content"></a>     <div class="breadcrumb-container"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../../index.html">Home</a></span> <span class="delimiter">»</span> <span class="inline even"><a href="../../academics.html">Schools and Colleges</a></span> <span class="delimiter">»</span> <span class="inline odd"><a href="class-home.html">College of Liberal Arts and Social Sciences</a></span> <span class="delimiter">»</span> <span class="inline even last">CLASS Home</span></div> </div>
+                <a id="main-content"></a>     
+                <!--***BEGIN BREADCRUMB-->
+                <div class="breadcrumb-container"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../../index.html">Home</a></span> <span class="delimiter">»</span> <span class="inline even"><a href="../../academics.html">Schools and Colleges</a></span> <span class="delimiter">»</span> <span class="inline odd"><a href="class-home.html">College of Liberal Arts and Social Sciences</a></span> <span class="delimiter">»</span> <span class="inline even last">CLASS Home</span></div>
+                <!--***END BREADCRUMB-->
+                </div>
+                <!--NOTE - Check if Events, News, and Spotlights links below are necessary-->
                 <a href="../../events.html" class="list-link view-all-events">&gt; UOG Events home page</a> <a href="../../news-announcements.html" class="list-link view-all-news">&gt; UOG News & Announcements home page</a> <a href="../../student-achievement/student-spotlights.html" class="list-link view-all-students">&gt; Back to Student Spotlights</a>
                 <div class="site_departments">
                     <div class="region region-site-department">
@@ -1789,9 +1793,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                 </div>
                 <h1 class="title" id="page-title"> CLASS Home </h1>
                 <div class="tabs">  </div>
+                <!--***BEGIN MAIN CONTENT CONTAINER-->
                 <div id="minisites" class="college-school panel-display pond clearfix sbpa">
+                    <!--***BEGIN MAIN BANNER-->
                     <div id="sub_header">
                         <div class="container">
+                            <!--***BEGIN BANNER TITLE-->
                             <div class="top">
                                 <div class="region region-site-title-image">
                                     <div id="block-block-69" class="block block-block pane-fpid-4 pane-bundle-text">
@@ -1803,7 +1810,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                     </div>
                                 </div>
                             </div>
-
+                            <!--***END BANNER TITLE-->
+                            <!--***BEGIN IMAGE SLIDER-->
+                            <!--NOTE - To be replaced with LDP Gallery Image Slider-->
                             <div class="slider">
                                 <div class="region region-sc-slider">
                                     <div id="block-views-minisite-sliders-block-11" class="block block-views">
@@ -1843,11 +1852,15 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                     </div>
                                 </div>
                             </div>
+                            <!--***END IMAGE SLIDER-->
                         </div>
                     </div>
+                    <!--***END MAIN BANNER-->
                     <div id="pagearea-minisites">
+                        <!--***BEGIN TEXT CONTENT CONTAINER (includes side nav and main editable content regions)-->
                         <div class="container">
                             <div class="row-fluid">
+                                <!--***BEGIN SIDENAV-->
                                 <div class="span3 school left_area">
                                     <div>
                                         <div class="mobile_menu"><span class="menu_title">Menu</span><span class="lines"><span class="line first-line first"></span><span class="line"></span><span class="line last-line last"></span></span></div>
@@ -2018,7 +2031,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                         </div>
                                     </div>
                                 </div>
+                                <!--***END SIDENAV-->
                                 <div class="visible-tablet clear"><br></div>
+                                <!--***BEGIN MAIN EDITABLE CONTENT REGION-->
                                 <div id="news_calendar" class="span9 mid_area">
                                     <div class="row-fluid_withoutbg">
                                         <div class="region region-content">
@@ -2026,10 +2041,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 
                                                 <div class="content">
-
                                                     <div class="panel-display sutro clearfix " id="page-page">
 
                                                         <div class="sutro-container sutro-header clearfix panel-panel">
+                                                            <!--***BEGIN EDITABLE CONTENT REGION TABS-->
                                                             <div class="sutro-container-inner sutro-header-inner panel-panel-inner">
                                                                 <div class="panel-pane pane-fieldable-panels-pane pane-fpid-576 pane-bundle-text">
 
@@ -2037,13 +2052,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                                                     <div class="pane-content">
                                                                         <div class="fieldable-panels-pane">
-                                                                            <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="nav nav-tabs  hidden-xs" id="minisiteTab"><li><a data-toggle="tab" href="#tab-info">About Us</a></li><li><a data-toggle="tab" href="#tab-news">News &amp; Announcements</a></li><li><a data-toggle="tab" href="#tab-events">Events</a></li><li><a data-toggle="tab" href="#tab-contactz">Contact Us</a></li><li><a data-toggle="tab" href="#tab-student_success">Student Success</a></li></ul></div></div></div>
+                                                                            <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="nav nav-tabs  hidden-xs" id="minisiteTab"><li><a data-toggle="tab" href="#tab-info">About Us</a></li><li><a data-toggle="tab" href="#tab-news">News &amp; Announcements</a></li><li><a data-toggle="tab" href="#tab-events">Events</a></li><li><a data-toggle="tab" href="#tab-contacts">Contact Us</a></li><li><a data-toggle="tab" href="#tab-student_success">Student Success</a></li></ul></div></div></div>
                                                                         </div>
                                                                     </div>
 
 
                                                                 </div>
                                                             </div>
+                                                            <!--***END EDITABLE CONTENT REGION TABS-->
                                                         </div>
 
                                                         <div class="sutro-container sutro-column-content clearfix">
@@ -2056,13 +2072,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                 </div>
                                                             </div>
                                                         </div>
-
+                                                        <!--***BEGIN EDITABLE CONTENT-->
                                                         <div class="sutro-container sutro-footer clearfix panel-panel">
                                                             <div class="sutro-container-inner sutro-footer-inner panel-panel-inner tab-content" id="myTabContent">
+                                                                <!--***BEGIN TAB1 CONTENT-->
                                                                 <div class="panel-pane pane-fieldable-panels-pane pane-fpid-608 tab-pane active pane-bundle-text" id="tab-info">
-
-
-
                                                                     <div class="pane-content">
                                                                         <div class="fieldable-panels-pane">
                                                                             <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden">
@@ -2077,94 +2091,70 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                             </div>
                                                                         </div>
                                                                     </div>
-
-
                                                                 </div>
+                                                                <!--***END TAB1 CONTENT-->
+                                                                <!--***BEGIN TAB2 CONTENT-->
                                                                 <div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-news-announcements-panel-pane-3 tab-pane" id="tab-news">
-
                                                                     <h2 class="pane-title">
                                                                         CLASS News &amp; Announcements
                                                                     </h2>
-
-
                                                                     <div class="pane-content">
                                                                         <div class="view view-news-announcements view-id-news_announcements view-display-id-panel_pane_3 news-announcements view-dom-id-798fa0816992687efe18a50c8ce1c76b">
                                                                             <div class="view-header">
                                                                                 <div class="news_all"><a href="../../news-announcements.html">> View All</a></div>
                                                                             </div>
-
-
-
                                                                             <div class="view-content">
+                                                                                <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                 <div class="views-row views-row-1 views-row-odd views-row-first">
-
                                                                                     <div class="views-field views-field-field-new-image">        <div class="field-content"><div class="image-pop"><a href="../../news-announcements/pacific-asia-inquiry-calls-for-submissions.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/new_minisite_news_image/public/2017_pai_240x160280d.jpg?itok=Ucoihqcx" width="200" height="180" alt="Pacific Asia Inquiry Calls for Submissions" title="Pacific Asia Inquiry Calls for Submissions" /></a> </div></div>  </div>
                                                                                     <div class="views-field views-field-title">        <span class="field-content"><a href="../../news-announcements/pacific-asia-inquiry-calls-for-submissions.html">Pacific Asia Inquiry Calls for Submissions</a></span>  </div>
                                                                                     <div class="views-field views-field-field-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-21T13:45:00+10:00">03/21/17</span></div>  </div>
                                                                                     <div class="views-field views-field-field-short-description-">        <div class="field-content"><p>Deadline for submissions is July 15, 2017</p></div>  </div>
                                                                                     <div class="views-field views-field-view-node news_more">        <span class="field-content"><a href="../../news-announcements/pacific-asia-inquiry-calls-for-submissions.html">More...</a></span>  </div>
                                                                                 </div>
+                                                                                <!--***END DYNAMIC CONTENT BOX-->
+                                                                                <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                 <div class="views-row views-row-2 views-row-even">
-
                                                                                     <div class="views-field views-field-field-new-image">        <div class="field-content"><div class="image-pop"><a href="../../news-announcements/uog-professor-anderson-wins-excellence-award-for-feature-film-script.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/new_minisite_news_image/public/2017_anderson_240x1605cd9.jpg?itok=hLLcR4q2" width="200" height="180" alt="UOG Professor Anderson Wins Excellence Award for Feature Film Script " title="UOG Professor Anderson Wins Excellence Award for Feature Film Script " /></a> </div></div>  </div>
                                                                                     <div class="views-field views-field-title">        <span class="field-content"><a href="../../news-announcements/uog-professor-anderson-wins-excellence-award-for-feature-film-script.html">UOG Professor Anderson Wins Excellence Award for Feature Film Script </a></span>  </div>
                                                                                     <div class="views-field views-field-field-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-08T11:15:00+10:00">03/08/17</span></div>  </div>
                                                                                     <div class="views-field views-field-field-short-description-">        <div class="field-content"><p>"I had to write this. It wouldn’t let me go.” -Dr. Raymond Anderson</p></div>  </div>
                                                                                     <div class="views-field views-field-view-node news_more">        <span class="field-content"><a href="../../news-announcements/uog-professor-anderson-wins-excellence-award-for-feature-film-script.html">More...</a></span>  </div>
                                                                                 </div>
+                                                                                <!--***END DYNAMIC CONTENT BOX-->
+                                                                                <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                 <div class="views-row views-row-3 views-row-odd views-row-last">
-
                                                                                     <div class="views-field views-field-field-new-image">        <div class="field-content"><div class="image-pop"><a href="../../news-announcements/isla-center-for-the-arts-hosts-19th-annual-art-a-thon.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/new_minisite_news_image/public/2017_art-a-thon_240x160fd16.jpg?itok=HHXXDoy4" width="200" height="180" alt="Isla Center for the Arts Hosts 19th Annual Art-a-thon" title="Isla Center for the Arts Hosts 19th Annual Art-a-thon" /></a> </div></div>  </div>
                                                                                     <div class="views-field views-field-title">        <span class="field-content"><a href="../../news-announcements/isla-center-for-the-arts-hosts-19th-annual-art-a-thon.html">Isla Center for the Arts Hosts 19th Annual Art-a-thon</a></span>  </div>
                                                                                     <div class="views-field views-field-field-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-03T08:45:00+10:00">03/03/17</span></div>  </div>
                                                                                     <div class="views-field views-field-field-short-description-">        <div class="field-content"><p>The exhibit features selected works of art created by students who participated in the 2016-2017 Isla Art-a-thon</p></div>  </div>
                                                                                     <div class="views-field views-field-view-node news_more">        <span class="field-content"><a href="../../news-announcements/isla-center-for-the-arts-hosts-19th-annual-art-a-thon.html">More...</a></span>  </div>
                                                                                 </div>
+                                                                                <!--***END DYNAMIC CONTENT BOX-->
                                                                             </div>
-
-
-
-
-
-
                                                                         </div>
                                                                     </div>
-
-
                                                                 </div>
+                                                                <!--***END TAB2 CONTENT-->
+                                                                <!--***BEGIN TAB3 CONTENT-->
                                                                 <div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-home-events-panel-pane-3 tab-pane" id="tab-events">
-
                                                                     <h2 class="pane-title">
                                                                         CLASS Calendar
                                                                     </h2>
-
-
                                                                     <div class="pane-content">
                                                                         <div class="view view-home-events view-id-home_events view-display-id-panel_pane_3 minisite-events view-dom-id-9281df2ab783a97d6d2c4207c5293ae8">
                                                                             <div class="view-header">
                                                                                 <div class="news_all"><a href="../../events.html">&gt; View All</a></div>
                                                                             </div>
-
-
-
                                                                             <div class="view-empty">
                                                                                 There are no Events to show at this time.<br>
                                                                             </div>
-
-
-
-
-
-
                                                                         </div>
                                                                     </div>
-
-
                                                                 </div>
+                                                                <!--***END TAB3 CONTENT-->
+                                                                <!--***BEGIN TAB4 CONTENT-->
                                                                 <div class="panel-separator"></div><div class="panel-pane pane-fieldable-panels-pane pane-fpid-609 tab-pane pane-bundle-text" id="tab-contacts">
-
-
-
                                                                     <div class="pane-content">
                                                                         <div class="fieldable-panels-pane">
                                                                             <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden">
@@ -2179,13 +2169,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                             </div>
                                                                         </div>
                                                                     </div>
-
-
                                                                 </div>
+                                                                <!--***END TAB4 CONTENT-->
+                                                                <!--***BEGIN TAB5 CONTENT-->
                                                                 <div class="panel-separator"></div><div class="panel-pane pane-fieldable-panels-pane pane-fpid-615 tab-pane pane-bundle-text" id="tab-student_success">
-
-
-
                                                                     <div class="pane-content">
                                                                         <div class="fieldable-panels-pane">
                                                                             <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden">
@@ -2198,12 +2185,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                         <p>Read success stories from students and alumni from the College of Liberal Arts &amp; Social Sciences. For more student success stories, visit our&nbsp;<a href="../../student-achievement.html">Student Achievement</a>&nbsp;site.&nbsp;</p>
                                                                                         <p>
                                                                                             <div class="view view-school-college-stories view-id-school_college_stories view-display-id-block view-dom-id-21d4ebf1238f3881719d3c68200bd6c0">
-
-
-
                                                                                                 <div class="view-content">
                                                                                                     <div class="newstext">
                                                                                                         <div class="clearfix content_area">
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  odd">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/valedictorian-sean-rupley-fights-for-change.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_sean-rupley_309x200ec52.jpg?itok=Gu6qo5Mf" width="300" height="194" alt="University of Guam" /></a></div>
@@ -2216,6 +2201,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  even">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/from-southern-belle-to-island-bonita.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_elizabeth-wells_300x209106a.jpg?itok=hBpcH9G6" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2228,6 +2215,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  odd">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/uog-empowers-future-anthropologists.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_yap-spring-break_300x209e24e.jpg?itok=fyU6Jhs-" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2240,6 +2229,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  even">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../alumni-spotlights/uog-alumna-awarded-coveted-east-west-center-fellowship.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_elyssa-santos_300x2095299.jpg?itok=bQ2ForY9" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2252,6 +2243,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  odd">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../alumni-spotlights/uog-alumna-accepted-into-prestigious-los-angeles-acting-academy.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_jt_300x2097477.jpg?itok=rlBXKF7C" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2264,6 +2257,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  even">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../alumni-spotlights/uog-alumnus-chargualaf-illustrates-for-graphic-novel.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_sonnychargualaf_300x209f575.jpg?itok=74IuZS9x" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2276,6 +2271,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  odd">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/uog-student-athletes-take-silver-medal-in-international-rugby-tournament.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_rugby_300x2093d9a.jpg?itok=JBKxu0D1" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2288,6 +2285,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  even">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/triton-actors-to-compete-in-hawaii.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2016_theaterstudents_240x160dd9a.jpg?itok=CdnRuDnt" width="240" height="160" alt="University of Guam" /></a></div>
@@ -2300,6 +2299,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  odd">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/uog-grad-explores-japanese-culture-through-jal-scholarship-program.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2015_jal_300x209de59.jpg?itok=9vYPINDO" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2312,6 +2313,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
+                                                                                                            <!--***BEGIN DYNAMIC CONTENT BOX-->
                                                                                                             <div class="row-fluid news  even">
                                                                                                                 <div class="span12 news_details">
                                                                                                                     <div class="news_main_img span3"><a href="../../student-spotlights/uog-student-learns-from-master-carver.html"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium_2__300x300_/public/2015_romanduenas_300x2099254.jpg?itok=dZfZ0_e7" width="300" height="209" alt="University of Guam" /></a></div>
@@ -2324,22 +2327,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                                     </div>
                                                                                                                 </div>
                                                                                                             </div>
+                                                                                                            <!--***END DYNAMIC CONTENT BOX-->
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
-
-                                                                                                <h2 class="element-invisible">Pages</h2><div class="item-list">
+                                                                                                <!--***BEGIN PAGE NAVIGATION-->
+                                                                                                <h2 cl ass="element-invisible">Pages</h2><div class="item-list">
                                                                                                     <ul class="pager">
                                                                                                         <li class="pager-current first">1</li>
                                                                                                         <li class="pager-item"><a title="Go to page 2" href="class-home2679.html?page=1">2</a></li>
                                                                                                         <li class="pager-next"><a title="Go to next page" href="class-home2679.html?page=1">next ›</a></li>
                                                                                                         <li class="pager-last last"><a title="Go to last page" href="class-home2679.html?page=1">last »</a></li>
                                                                                                     </ul>
+                                                                                                <!--***END PAGE NAVIGATION-->
                                                                                                 </div>
-
-
-
-
                                                                                             </div>
                                                                                         </p>
                                                                                     </div>
@@ -2347,25 +2348,28 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                             </div>
                                                                         </div>
                                                                     </div>
-
-
                                                                 </div>
+                                                                <!--***END TAB5 CONTENT-->
                                                             </div>
                                                         </div>
-
+                                                        <!--***END EDITABLE CONTENT-->
                                                     </div><!-- /.sutro -->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--***END MAIN EDITABLE CONTENT REGION-->
                             </div>
                         </div>
+                        <!--***END TEXT CONTENT CONTAINER-->
                     </div>
                 </div>
+                <!--***END MAIN CONTENT CONTAINER-->
             </div>
         </div>
         <!-- #pagearea-->
+        <!--***BEGIN FOOTER-->
         <div id="footer">
             <div class="container">
                 <div class="row-fluid">
@@ -2373,26 +2377,19 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         <div id="footer_logo">
                             <div class="region region-footer-logo">
                                 <div id="block-block-7" class="block block-block">
-
-
                                     <div class="content">
                                         <p><a title="University of Guam logo" href="../../index.html"><img src="../../sites/default/files/footer-logo_0.png" alt="University of Guam logo" title="" width="275" height="113" class="media-element file-default" data-file_info="%7B%22fid%22:%22413%22,%22view_mode%22:%22default%22,%22fields%22:%7B%22format%22:%22default%22,%22field_file_image_alt_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22University%20of%20Guam%22,%22field_file_image_title_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22%7D,%22type%22:%22media%22%7D" /><!--MEDIA-WRAPPER-END-1--><!--MEDIA-WRAPPER-END-2--><!--MEDIA-WRAPPER-END-1--></a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="mobile_contentshow">
                             <a href="javascript:;" class="more mobile_new_btn">More </a>
                         </div>
-
-
                         <hr class="dotted">
                         <div class="address">
                             <div class="region region-footer-address">
                                 <div id="block-block-6" class="block block-block">
-
-
                                     <div class="content">
                                         <h3>University of Guam</h3><p><em><span data-mce-mark="1">Unibetsedȧt</span> <span data-mce-mark="1">Guahan</span></em><br /> <span data-mce-mark="1">UOG</span> Station<br /> <span data-mce-mark="1">Mangilao</span>, Guam 96923<br /><br /> <a href="../../contact-us.html">Contact Us</a></p><p><span style="font-size: small;">This institution is an<br /></span><span style="font-size: small;">equal&nbsp;</span><span style="font-size: small;">opportunity&nbsp;<br /></span><span style="font-size: small;">provider&nbsp;</span><span style="font-size: small;">and employer.</span></p>
                                     </div>
@@ -2403,8 +2400,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                     <div class="span3 box3 pull-right">
                         <div class="region region-footer-quick-links">
                             <nav id="block-menu-menu-footer-quick-links" class="block block-menu" role="navigation">
-
-
                                 <div class="content">
                                     <ul class="menu clearfix">
                                         <li class="first leaf"><a href="../../admissions/apply.html" title="Apply Now" class="menu_icon menu-2741">Apply Now </a></li>
@@ -2420,8 +2415,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         </div>
                         <div class="region region-footer-social-icons">
                             <div id="block-block-4" class="block block-block">
-
-
                                 <div class="content">
                                     <ul><li><a href="https://www.facebook.com/UniversityofGuam" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-facebook_0.png" alt="Facebook" /></li><li><a href="https://twitter.com/UOGTriton" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-twitter_0.png" alt="Twitter" /></li><li><a href="http://www.youtube.com/UOGTritons" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-youtube.png" alt="YouTube" /></li><li><a href="http://instagram.com/uog_tritons" target="_blank"><img alt="Instagram" class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-instagram.png" /></li></ul>
                                 </div>
@@ -2433,8 +2426,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         <div class="row-fluid">
                             <div class="region region-footer-firstcolumn">
                                 <div id="block-block-9" class="block block-block col first">
-
-
                                     <div class="content">
                                         <h4>BECOME A TRITON</h4>
                                         <ul class="unstyled">
@@ -2449,8 +2440,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                         </ul>
                                     </div>
                                 </div><div id="block-block-10" class="block block-block col">
-
-
                                     <div class="content">
                                         <h4>CONNECT</h4>
                                         <ul class="unstyled">
@@ -2501,6 +2490,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                 </div>
             </div>
         </div>
+        <!--***END FOOTER-->
     </div>
     <!-- /#nakainer -->
     <div class="mobile_header_contact">
@@ -2589,5 +2579,4 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <script type="text/javascript" src="../../sites/default/files/js/js_QzVaiwvR0RpkEHFDMo2LmamWR4W2axpf5ouAwi6XUoo.js"></script>
     <script data-main="../../sites/all/themes/university_guam/js/scripts.js" src="../../sites/all/themes/university_guam/js/require.js"></script>
 </body>
-<!-- Mirrored from www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-home by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2017 01:03:28 GMT -->
 </html>
