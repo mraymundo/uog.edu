@@ -24,3 +24,5 @@
 --4/27/17--
 	1. changed fb references to link directly to fb
 	2. Fixed .css directory broken references
+	3. Removed w3 valdiation errors in index.html by commenting out lines of code that were specific to druple...lol..surprisingly nothing seems to be broken?? TBC... 10 errors still to fix.
+ 
