@@ -21,11 +21,13 @@
 	3. Moved jquery.min.js from www.ajax.googleapis.com/.../ folder to sites/all/themes/university_guam/js/
 	4. Finished commenting block of functions in index.html, and began in class-home.html
 
+
 --4/27/17--
 	1. changed fb references to link directly to fb
 	2. Fixed .css directory broken references
-	3. Fixed issue of contacts tab content on mini site not rendering
+	3. Removed w3 valdiation errors in index.html by commenting out lines of code that were specific to druple...lol..surprisingly nothing seems to be broken?? TBC... 10 errors still to fix.
+	4. Fixed issue of Contact Us tab content not loading in mini site
 		- Issue currently replicates site-wide on live uog.edu
-		- Fix = Content container div id value did not match tab href value (id="tab-contacts", href="#tab-contactz")
-			- W.T.F.??????()*U*#U(*&(N@!(#
-	4. Finished commenting block functions in class-home.html
+		- FIX = Content container div id value did not match tab href value (id="tab-contacts", href="#tab-contactz")
+			- W.T.F.?????????(&*^*(&^)*&*)G *)&G )*&Y)(* N
+	5. Finished function block comments for class-home.html 

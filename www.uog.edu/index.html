@@ -1,8 +1,16 @@
-﻿<!DOCTYPE html>
-<html lang="en" dir="ltr">
+﻿
+<!DOCTYPE html>
+<html lang="en" dir="ltr">    
+
+<!-- TESTING HERE 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+          "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+END TEST CODE-->
+   
 
 <!-- from html tag ^
-      
+
       xmlns:content="http://purl.org/rss/1.0/modules/content/"
       xmlns:dc="http://purl.org/dc/terms/"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -11,12 +19,11 @@
       xmlns:sioc="http://rdfs.org/sioc/ns#"
       xmlns:sioct="http://rdfs.org/sioc/types#"
       xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"    
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 -->
-<!-- Mirrored from www.uog.edu/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Apr 2017 23:23:30 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head profile="http://www.w3.org/1999/xhtml/vocab">
+<!-- Mirrored from www.uog.edu/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Apr 2017 23:23:30 GMT
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /> /Added by HTTrack -->
+<head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
@@ -287,13 +294,15 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                 <div class="top_menu">
                                                     <!--***BEGIN TOP MENU-->
                                                     <div class="region region-top-menu">
-                                                        <nav id="block-menu-menu-top-menu" class="block block-menu" role="navigation">
+                                                        <!-- removed role="navigation" from line below-->
+                                                        <nav id="block-menu-menu-top-menu" class="block block-menu">
 
 
                                                             <div class="content">
                                                                 <ul class="menu clearfix">
                                                                     <li class="first leaf"><a href="directory.html">Directory</a></li>
-                                                                    <li class="leaf"><a href="contact-us.html" name="Contact Us">Contact</a></li>
+                                                                    <!-- changed name="Contact Us" to id="ContactUs" from line below-->
+                                                                    <li class="leaf"><a href="contact-us.html" id="ContactUs">Contact</a></li>
                                                                     <li class="leaf"><a href="student-services/rfk-library/rfk-library.html">RFK Library</a></li>
                                                                     <li class="leaf"><a href="campus-map.html" title="Campus Map">Campus Map</a></li>
                                                                     <li class="leaf"><a href="news-announcements.html">News</a></li>
@@ -2535,7 +2544,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                     </div>
                                     <!--***END MORE OR APPLY BOX-->
 
-                                    
+
                                     <!--***BEGIN TEASER BOXES-->
                                     <div id="teaser_scroll">
                                         <div id="teaser" class="container">
