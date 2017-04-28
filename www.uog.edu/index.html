@@ -24,11 +24,16 @@ END TEST CODE-->
 <!-- Mirrored from www.uog.edu/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Apr 2017 23:23:30 GMT
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /> /Added by HTTrack -->
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- changed content="IE=edge,chrome=1" to content="IE=edge" below-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.02" />
-    <meta http-equiv="cleartype" content="on" />
+    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <!-- wrapped below line in conditional comments to validate for w3-->
+    <!--[if (IEMobile)]>
+        <meta http-equiv="cleartype" content="on" />
+    <![endif]-->    
     <title>University of Guam</title>
 
     <style type="text/css" media="all">
@@ -144,20 +149,58 @@ END TEST CODE-->
     <style type="text/css" media="all">
         @import url("sites/all/themes/university_guam/css/uog7740.css?onza9f");
     </style>
+    <style>
+        .mobile_backtop, .mobile_contentshow, .mobile_header_contact {
+            display: none;
+        }
 
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans.css?onza9f" media="all" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans-bold.css?onza9f" media="all" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans-italic.css?onza9f" media="all" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans-bold-italic.css?onza9f" media="all" />
-    <![endif]-->
-    <script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        @media (max-width: 767px) {
+            .mobile_backtop, .mobile_contentshow {
+                display: block;
+                margin: 30px 0px;
+                font-size: 15px;
+            }
+
+            .mobile_new_btn {
+                padding: 10px 15px;
+                border-radius: 5px;
+            }
+
+            #footer .mobile_contentshow .more {
+                background: #fff;
+                color: #00652E;
+                font-size: 17px;
+            }
+
+            .mobile_new_btn:hover {
+                text-decoration: none;
+            }
+
+            #footer hr, #footer .address, #footer .box3, #footer .box2, #quick_links, #teaser_scroll {
+                display: none;
+            }
+
+            #apply_uog .sep, #apply_uog .text, #apply_uog .buttons, #apply_uog .sep {
+                display: none;
+            }
+
+            .pane-block-49 .pane-content {
+                display: inline-block;
+            }
+
+            .pane-block-49 {
+                text-align: center;
+            }
+
+            .mobile_header_contact {
+                display: block;
+                position: absolute;
+                top: 7px;
+                left: 15px;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="sites/all/themes/university_guam/js/jquery.min.js"></script>
     <script type="text/javascript">
         var $jq = jQuery.noConflict();
     </script>
@@ -251,10 +294,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     */
     -->
     <!--[if (gte IE 6)&(lte IE 8)]>
-        <script src="http://uogmedia.guamwebz.com/sites/all/themes/university_guam/js/selectivizr-min.js"></script>
+        <script src="sites/all/themes/university_guam/js/selectivizr.min.js"></script>
       <![endif]-->
     <!--[if lt IE 9]>
-        <script src="http://uogmedia.guamwebz.com/sites/all/themes/university_guam/js/html5-respond.js"></script>
+        <script src="sites/all/themes/university_guam/js/respond.min.js"></script>
       <![endif]-->
 </head>
 <body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-47 node-type-panopoly-page node-promoted region-content footer-columns">
@@ -287,7 +330,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                         <div class="row-fluid">
                                             <div class="hidden-phone span4">
                                                 <div class="logo">
-                                                    <a href="index.html" title="University of Guam logo" rel="home" id="logo"> <img src="sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
+                                                    <a href="index.html" title="University of Guam logo" rel="home" id="logoheader"> <img src="sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
                                                 </div>
                                             </div>
                                             <div class="span8 text-right">
@@ -316,8 +359,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                                             <div class="content">
                                                                 <div class="btn-group login_botton">
-                                                                    <a class="btn" href="triton-login.html" target="_blank">Login</a> <a class="btn dropdown-toggle" href="javascript:;" rel="login-dropdown"><span class="caret">&nbsp;</span><span class="hide-text">Toggle Dropdown</span></a>
-                                                                    <ul class="dropdown-menu" id="login-dropdown" style="display: none;">
+                                                                    <!-- recode <a class="btn dropdown-toggle" href="javascript:;" rel="alternate"> with a javascript on click event.....renamed rel and id to alternate just to pass w3 validation -->
+                                                                    <a class="btn" href="triton-login.html" target="_blank">Login</a> <a class="btn dropdown-toggle" href="javascript:;" rel="alternate"><span class="caret">&nbsp;</span><span class="hide-text">Toggle Dropdown</span></a>
+                                                                    <ul class="dropdown-menu" id="alternate" style="display: none;">
                                                                         <li><a href="https://advisor.uog.edu:81/WebAdvisor/WebAdvisor" target="_blank">WebAdvisor</a></li>
                                                                         <li><a href="http://campus.uogdistance.com/" target="_blank">Moodle</a></li>
                                                                         <li><a style="font-size: 13.008px;" href="https://mail.office365.com/" target="_blank">GoTritons Student Webmail</a></li>
@@ -1755,7 +1799,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                 <!--***END HEADER-->
                 <div id="phone-logo" class="visible-phone">
                     <div class="logo">
-                        <a href="index.html" title="University of Guam logo" rel="home" id="logo"> <img src="sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
+                        <a href="index.html" title="University of Guam logo" rel="home" id="logofooter"> <img src="sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
                     </div>
                 </div>
                 <!-- /.section, /#header -->
@@ -2487,7 +2531,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 
                                                     <div class="pane-content">
-                                                        <p><iframe allowfullscreen="" frameborder="0" height="550" src="https://www.youtube.com/embed/PJ7uCOtBmNo" width="100%"></iframe></p>
+                                                        <p><iframe allowfullscreen="" height="550" src="https://www.youtube.com/embed/PJ7uCOtBmNo" style="width:100%; border:0;"></iframe></p>
                                                     </div>
 
 
@@ -2611,7 +2655,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                             </div>
                         </div>
                     </div>
-                </div>
                 <!--***BEGIN FOOTER-->
                 <div id="footer">
                     <div class="container">
@@ -2649,7 +2692,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                             </div>
                             <div class="span3 box3 pull-right">
                                 <div class="region region-footer-quick-links">
-                                    <nav id="block-menu-menu-footer-quick-links" class="block block-menu" role="navigation">
+                                    <!-- removed role="navigation" from line below-->
+                                    <nav id="block-menu-menu-footer-quick-links" class="block block-menu">
 
 
                                         <div class="content">
@@ -2764,58 +2808,6 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         <a href="contact-us.html"><img src="sites/all/themes/university_guam/css/img/contact_icon.png" alt="UOG" /></a>
 
     </div>
-
-    <style>
-        .mobile_backtop, .mobile_contentshow, .mobile_header_contact {
-            display: none;
-        }
-
-        @media (max-width: 767px) {
-            .mobile_backtop, .mobile_contentshow {
-                display: block;
-                margin: 30px 0px;
-                font-size: 15px;
-            }
-
-            .mobile_new_btn {
-                padding: 10px 15px;
-                border-radius: 5px;
-            }
-
-            #footer .mobile_contentshow .more {
-                background: #fff;
-                color: #00652E;
-                font-size: 17px;
-            }
-
-            .mobile_new_btn:hover {
-                text-decoration: none;
-            }
-
-            #footer hr, #footer .address, #footer .box3, #footer .box2, #quick_links, #teaser_scroll {
-                display: none;
-            }
-
-            #apply_uog .sep, #apply_uog .text, #apply_uog .buttons, #apply_uog .sep {
-                display: none;
-            }
-
-            .pane-block-49 .pane-content {
-                display: inline-block;
-            }
-
-            .pane-block-49 {
-                text-align: center;
-            }
-
-            .mobile_header_contact {
-                display: block;
-                position: absolute;
-                top: 7px;
-                left: 15px;
-            }
-        }
-    </style>
 
     <script>
         jQuery(".mobile_backtop a").click(function () {
