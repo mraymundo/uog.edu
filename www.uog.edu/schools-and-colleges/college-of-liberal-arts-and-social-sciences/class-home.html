@@ -15,15 +15,15 @@
       xmlns:xsd="http://www.w3.org/2001/XMLSchema#"    
 -->
 
-<!-- Mirrored from www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-home by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2017 01:00:11 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head profile="http://www.w3.org/1999/xhtml/vocab">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- <meta http-equiv="content-type" content="text/html;charset=utf-8" />/Added by HTTrack -->
+<head><!--deleted  profile="http://www.w3.org/1999/xhtml/vocab"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--deleted  ,chrome=1 from content=""-->
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.02" />
+    <!--[if (IEMobile)]>
     <meta http-equiv="cleartype" content="on" />
+    <![endif]-->
     <title>CLASS Home | University of Guam</title>
 
     <style type="text/css" media="all">
@@ -149,19 +149,58 @@
     <style type="text/css" media="all">
         @import url("../../sites/all/themes/university_guam/css/uog54ec.css?olf28c");
     </style>
+    <!--moved style below from body to head-->
+    <style>
+        .mobile_backtop, .mobile_contentshow, .mobile_header_contact {
+            display: none;
+        }
 
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans.css?olf28c" media="all" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans-bold.css?olf28c" media="all" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans-italic.css?olf28c" media="all" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-    <link type="text/css" rel="stylesheet" href="http://www.uog.edu/sites/all/modules/panopoly_core/css/panopoly-fonts-ie-open-sans-bold-italic.css?olf28c" media="all" />
-    <![endif]-->
+        @media (max-width: 767px) {
+            .mobile_backtop, .mobile_contentshow {
+                display: block;
+                margin: 30px 0px;
+                font-size: 15px;
+            }
+
+            .mobile_new_btn {
+                padding: 10px 15px;
+                border-radius: 5px;
+            }
+
+            #footer .mobile_contentshow .more {
+                background: #fff;
+                color: #00652E;
+                font-size: 17px;
+            }
+
+            .mobile_new_btn:hover {
+                text-decoration: none;
+            }
+
+            #footer hr, #footer .address, #footer .box3, #footer .box2, #quick_links, #teaser_scroll {
+                display: none;
+            }
+
+            #apply_uog .sep, #apply_uog .text, #apply_uog .buttons, #apply_uog .sep {
+                display: none;
+            }
+
+            .pane-block-49 .pane-content {
+                display: inline-block;
+            }
+
+            .pane-block-49 {
+                text-align: center;
+            }
+
+            .mobile_header_contact {
+                display: block;
+                position: absolute;
+                top: 7px;
+                left: 15px;
+            }
+        }
+    </style>
     <script type="text/javascript" src="../../sites/all/themes/university_guam/js/jquery.min.js"></script>
     <script type="text/javascript">
         var $jq = jQuery.noConflict();
@@ -288,7 +327,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                         <div class="row-fluid">
                                             <div class="hidden-phone span4">
                                                 <div class="logo">
-                                                    <a href="../../index.html" title="University of Guam logo" rel="home" id="logo"> <img src="../../sites/all/themes/university_guam/images/UOG-new-header.png" alt="University of Guam logo" /> </a>
+                                                    <a href="../../index.html" title="University of Guam logo" rel="home" id="logo_header"> <img src="../../sites/all/themes/university_guam/images/UOG-new-header.png" alt="University of Guam logo" /> </a>
                                                 </div>
                                             </div>
                                             <div class="span8 text-right">
@@ -323,13 +362,13 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                     <!--***BEGIN TOP MENU-->
                                                     <!--NOTE - "top_menu" div contains main menu toggle button. Isolated top menu is contained in region-top-menu div-->
                                                     <div class="region region-top-menu">
-                                                        <nav id="block-menu-menu-top-menu" class="block block-menu" role="navigation">
+                                                        <nav id="block-menu-menu-top-menu" class="block block-menu"><!--role="navigation"-->
 
 
                                                             <div class="content">
                                                                 <ul class="menu clearfix">
                                                                     <li class="first leaf"><a href="../../directory.html">Directory</a></li>
-                                                                    <li class="leaf"><a href="../../contact-us.html" name="Contact Us">Contact</a></li>
+                                                                    <li class="leaf"><a href="../../contact-us.html" id="ContactUs">Contact</a></li>
                                                                     <li class="leaf"><a href="../../student-services/rfk-library/rfk-library.html">RFK Library</a></li>
                                                                     <li class="leaf"><a href="../../campus-map.html" title="Campus Map">Campus Map</a></li>
                                                                     <li class="leaf"><a href="../../news-announcements.html">News</a></li>
@@ -343,8 +382,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
                                                             <div class="content">
                                                                 <div class="btn-group login_botton">
-                                                                    <a class="btn" href="../../triton-login.html" target="_blank">Login</a> <a class="btn dropdown-toggle" href="javascript:;" rel="login-dropdown"><span class="caret">&nbsp;</span><span class="hide-text">Toggle Dropdown</span></a>
-                                                                    <ul class="dropdown-menu" id="login-dropdown">
+                                                                    <a class="btn" href="../../triton-login.html" target="_blank">Login</a> <a class="btn dropdown-toggle" href="javascript:;" rel="alternate"><span class="caret">&nbsp;</span><span class="hide-text">Toggle Dropdown</span></a>
+                                                                    <ul class="dropdown-menu" id="alternate">
                                                                         <li><a href="https://advisor.uog.edu:81/WebAdvisor/WebAdvisor" target="_blank">WebAdvisor</a></li>
                                                                         <li><a href="http://campus.uogdistance.com/" target="_blank">Moodle</a></li>
                                                                         <li><a style="font-size: 13.008px;" href="https://mail.office365.com/" target="_blank">GoTritons Student Webmail</a></li>
@@ -1748,7 +1787,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                 </div>
                 <div id="phone-logo" class="visible-phone">
                     <div class="logo">
-                        <a href="../../index.html" title="University of Guam logo" rel="home" id="logo"> <img src="../../sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
+                        <a href="../../index.html" title="University of Guam logo" rel="home" id="logo_footer"> <img src="../../sites/default/files/logo_2.png" alt="University of Guam logo" /> </a>
                     </div>
                 </div>
                 <!-- /.section, /#header -->
@@ -1757,12 +1796,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         <!--***END MINI PAGE HEADER-->
         <div id="content" class="column">
             <div class="section">
-                <a id="main-content"></a>
+                <a id="main-content-header"></a>
             </div>
         </div>
         <div id="pagearea">
             <div class="container">
-                <a id="main-content"></a>     
+                <a id="main-content-content"></a>     
                 <!--***BEGIN BREADCRUMB-->
                 <div class="breadcrumb-container"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../../index.html">Home</a></span> <span class="delimiter">»</span> <span class="inline even"><a href="../../academics.html">Schools and Colleges</a></span> <span class="delimiter">»</span> <span class="inline odd"><a href="class-home.html">College of Liberal Arts and Social Sciences</a></span> <span class="delimiter">»</span> <span class="inline even last">CLASS Home</span></div>
                 <!--***END BREADCRUMB-->
@@ -1865,7 +1904,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                     <div>
                                         <div class="mobile_menu"><span class="menu_title">Menu</span><span class="lines"><span class="line first-line first"></span><span class="line"></span><span class="line last-line last"></span></span></div>
                                         <div class="region region-minisite-menu">
-                                            <nav id="block-menu-menu-college-of-liberal-arts-soc" class="block block-menu menu-block-wrapper" role="navigation">
+                                            <nav id="block-menu-menu-college-of-liberal-arts-soc" class="block block-menu menu-block-wrapper"><!--deleted  role="navigation"-->
 
 
                                                 <div class="content">
@@ -2332,7 +2371,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <!--***BEGIN PAGE NAVIGATION-->
-                                                                                                <h2 cl ass="element-invisible">Pages</h2><div class="item-list">
+                                                                                                <h2 class="element-invisible">Pages</h2><div class="item-list">
                                                                                                     <ul class="pager">
                                                                                                         <li class="pager-current first">1</li>
                                                                                                         <li class="pager-item"><a title="Go to page 2" href="class-home2679.html?page=1">2</a></li>
@@ -2342,7 +2381,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                                                                                                 <!--***END PAGE NAVIGATION-->
                                                                                                 </div>
                                                                                             </div>
-                                                                                        </p>
+                                                                                        <!--</p>-->
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2399,7 +2438,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                     </div>
                     <div class="span3 box3 pull-right">
                         <div class="region region-footer-quick-links">
-                            <nav id="block-menu-menu-footer-quick-links" class="block block-menu" role="navigation">
+                            <nav id="block-menu-menu-footer-quick-links" class="block block-menu"><!--deleted role="navigation"-->
                                 <div class="content">
                                     <ul class="menu clearfix">
                                         <li class="first leaf"><a href="../../admissions/apply.html" title="Apply Now" class="menu_icon menu-2741">Apply Now </a></li>
@@ -2416,7 +2455,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                         <div class="region region-footer-social-icons">
                             <div id="block-block-4" class="block block-block">
                                 <div class="content">
-                                    <ul><li><a href="https://www.facebook.com/UniversityofGuam" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-facebook_0.png" alt="Facebook" /></li><li><a href="https://twitter.com/UOGTriton" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-twitter_0.png" alt="Twitter" /></li><li><a href="http://www.youtube.com/UOGTritons" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-youtube.png" alt="YouTube" /></li><li><a href="http://instagram.com/uog_tritons" target="_blank"><img alt="Instagram" class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-instagram.png" /></li></ul>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/UniversityofGuam" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-facebook_0.png" alt="Facebook" /></a></li>
+                                        <li><a href="https://twitter.com/UOGTriton" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-twitter_0.png" alt="Twitter" /></a></li>
+                                        <li><a href="http://www.youtube.com/UOGTritons" target="_blank"><img class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-youtube.png" alt="YouTube" /></a></li>
+                                        <li><a href="http://instagram.com/uog_tritons" target="_blank"><img alt="Instagram" class="media-element file-default" typeof="foaf:Image" src="../../sites/default/files/icon-instagram.png" /></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -2494,7 +2538,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     </div>
     <!-- /#nakainer -->
     <div class="mobile_header_contact">
-        <a href="../../contact-us.html"><img src="../../sites/all/themes/university_guam/css/img/contact_icon.png" /></a>
+        <a href="../../contact-us.html"><img src="../../sites/all/themes/university_guam/css/img/contact_icon.png" alt="Contact Us"/></a>
 
     </div>
     <script>
@@ -2505,59 +2549,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         });
 
     </script>
-
-    <style>
-        .mobile_backtop, .mobile_contentshow, .mobile_header_contact {
-            display: none;
-        }
-
-        @media (max-width: 767px) {
-            .mobile_backtop, .mobile_contentshow {
-                display: block;
-                margin: 30px 0px;
-                font-size: 15px;
-            }
-
-            .mobile_new_btn {
-                padding: 10px 15px;
-                border-radius: 5px;
-            }
-
-            #footer .mobile_contentshow .more {
-                background: #fff;
-                color: #00652E;
-                font-size: 17px;
-            }
-
-            .mobile_new_btn:hover {
-                text-decoration: none;
-            }
-
-            #footer hr, #footer .address, #footer .box3, #footer .box2, #quick_links, #teaser_scroll {
-                display: none;
-            }
-
-            #apply_uog .sep, #apply_uog .text, #apply_uog .buttons, #apply_uog .sep {
-                display: none;
-            }
-
-            .pane-block-49 .pane-content {
-                display: inline-block;
-            }
-
-            .pane-block-49 {
-                text-align: center;
-            }
-
-            .mobile_header_contact {
-                display: block;
-                position: absolute;
-                top: 7px;
-                left: 15px;
-            }
-        }
-    </style>
-
+    
     <script>
         jQuery(".mobile_backtop a").click(function () {
             jQuery("html, body").animate({ scrollTop: -200 }, 1000);
