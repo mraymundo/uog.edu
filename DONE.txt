@@ -41,3 +41,4 @@
 
 --5/1/17--
 	1. w2 and accesibility errors fixed in index.html and class-home.html
+	2. Cleaned up css style calls in index.html and class-home.html (moved all @import calls to single <style> and moved inline css to external files and called them)
