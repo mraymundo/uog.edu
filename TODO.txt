@@ -3,3 +3,4 @@
 	1. Identify and comment out uog.edu image slider tags and code
 	2. Consult ou dev team to replace uog.edu image sliders with LDP Gallery
 	3. Adjust links in FB app side so uog.edu page can pull the code
+	4. Adjust Google Analyitics links
