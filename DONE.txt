@@ -38,3 +38,6 @@
 	2. added respond.min.js and selectivizr.min.js files to directory
 	3. Removed IE8 Panopoly Font conditional if comments.
 	4. Fixed known and likely problems in achecker.ca for index.html and class-home.html
+
+--5/1/17--
+	1. w2 and accesibility errors fixed in index.html and class-home.html
