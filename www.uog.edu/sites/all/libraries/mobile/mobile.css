@@ -1,0 +1,43 @@
+.mobile_backtop, .mobile_contentshow, .mobile_header_contact {
+	display: none;
+}
+@media (max-width: 767px) {
+	.mobile_backtop, .mobile_contentshow {
+	display: block;
+	margin: 30px 0px;
+	font-size: 15px;
+}
+.mobile_new_btn {
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+	#footer .mobile_contentshow .more {
+        background: #fff;
+        color: #00652E;
+	font-size: 17px;
+}
+.mobile_new_btn:hover {
+	text-decoration: none;
+}
+#footer hr, #footer .address, #footer .box3, #footer .box2, #quick_links, #teaser_scroll {
+	display: none;
+}
+#apply_uog .sep, #apply_uog .text, #apply_uog .buttons, #apply_uog .sep {
+	display: none;
+}
+
+            .pane-block-49 .pane-content {
+                display: inline-block;
+            }
+
+            .pane-block-49 {
+                text-align: center;
+            }
+
+            .mobile_header_contact {
+                display: block;
+                position: absolute;
+                top: 7px;
+                left: 15px;
+            }
+        }
