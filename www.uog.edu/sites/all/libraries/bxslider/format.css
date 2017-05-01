@@ -1,0 +1,25 @@
+<!-- /*--><![CDATA[/*><!--*/
+#views-slideshow-bxslider-1.views-slideshow-bxslider .bx-wrapper .bx-controls-direction a {
+	z-index: 499;
+}
+
+#views-slideshow-bxslider-1.views-slideshow-bxslider li img {
+	margin-right: auto;
+}
+
+#views-slideshow-bxslider-1.views-slideshow-bxslider .bx-wrapper .bx-caption {
+	background: rgba(80,80,80,0.75)
+}
+
+#views-slideshow-bxslider-2.views-slideshow-bxslider .bx-wrapper .bx-controls-direction a {
+	z-index: 499;
+}
+
+#views-slideshow-bxslider-2.views-slideshow-bxslider li img {
+	margin-right: auto;
+}
+
+#views-slideshow-bxslider-2.views-slideshow-bxslider .bx-wrapper .bx-caption {
+	background: rgba(80,80,80,0.75)
+}
+/*]]>*/ -->

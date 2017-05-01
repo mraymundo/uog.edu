@@ -1,0 +1,12 @@
+<!-- /*--><![CDATA[/*><!--*/
+.tb-megamenu.animate .mega > .mega-dropdown-menu, .tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div {
+	transition-delay: 100ms;
+	-webkit-transition-delay: 100ms;
+	-ms-transition-delay: 100ms;
+	-o-transition-delay: 100ms;
+	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	-ms-transition-duration: 400ms;
+	-o-transition-duration: 400ms;
+}
+/*]]>*/ -->

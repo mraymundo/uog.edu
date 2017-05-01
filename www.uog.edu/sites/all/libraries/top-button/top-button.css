@@ -1,0 +1,13 @@
+<!-- /*--><![CDATA[/*><!--*/
+#back-top {
+	right: 40px;
+}
+#back-top span#button {
+	background-color: #CCCCCC;
+}
+#back-top span#button:hover {
+	opacity: 1;
+	filter: alpha(opacity = 1);
+	background-color: #777777;
+}
+/*]]>*/ -->
