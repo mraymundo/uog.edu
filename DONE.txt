@@ -42,3 +42,7 @@
 --5/1/17--
 	1. w2 and accesibility errors fixed in index.html and class-home.html
 	2. Cleaned up css style calls in index.html and class-home.html (moved all @import calls to single <style> and moved inline css to external files and called them)
+
+--5/2/17--
+	1. Added kitchen sink functionality by being able to enable/disable side navs in class-home.html
+	2. More kitchen sinky stuff with the banner menu...its broken though...and i left it uncommented so its visibly broken. to remind us to fix it. 
