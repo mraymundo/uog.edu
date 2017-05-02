@@ -46,3 +46,4 @@
 --5/2/17--
 	1. Added kitchen sink functionality by being able to enable/disable side navs in class-home.html
 	2. More kitchen sinky stuff with the banner menu...its broken though...and i left it uncommented so its visibly broken. to remind us to fix it. 
+	3. Fixed banner menu in class-home.html
