@@ -27,6 +27,20 @@
   background-color: #AAA;
   border-bottom: 1px solid #CCC;
 }
+.centered-menu {
+  width: 100%;
+}
+.centered-menu ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.centered-menu li {
+  list-style: none;
+  flex-grow: 1;
+}
+
 /**
  * Ensures in mobile our menus stack
  */
