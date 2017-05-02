@@ -1,0 +1,39 @@
+MAIN PAGE TEMPLATE
+uog.edu
+
+NEWS AND ANNOUNCEMENTS TEMPLATE
+http://www.uog.edu/news-announcements/fishing-fun-at-5th-kids-freshwater-fishing-derby
+ - move to consolidated header
+
+NEWS AND ANNOUNCEMENTS LISTING TEMPLATE
+http://www.uog.edu/news-announcements
+
+EVENTS TEMPLATE
+http://www.uog.edu/events/2017-center-for-island-sustainability-conference
+
+EVENTS LISTING TEMPLATE
+http://www.uog.edu/events
+
+SCHOOLS AND COLLEGES LANDING PAGE TEMPLATE
+http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-home
+http://www.uog.edu/admissions
+ - can this page be converted to the same template as schools and colleges?
+
+SCHOOLS AND COLLEGES DEGREE PROGRAMS TEMPLATE
+http://www.uog.edu/degrees/bachelor-of-science-in-chemistry
+ - can this be incorporated into the main schools and colleges landing page template?
+
+DIVISION PAGE TEMPLATE
+http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-divisions/communication-and
+
+SPOTLIGHT TEMPLATE (students, faculty, community, research, alumni)
+http://www.uog.edu/student-achievement
+
+MINI SITE TEMPLATE
+http://www.uog.edu/uog-press
+
+DIRECTORY LISTING TEMPLATE
+http://www.uog.edu/directory
+
+ONE-OFF PAGES
+http://www.uog.edu/student-services/rfk-library/rfk-library
