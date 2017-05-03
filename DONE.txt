@@ -49,3 +49,12 @@
 	1. Added kitchen sink functionality by being able to enable/disable side navs in class-home.html
 	2. More kitchen sinky stuff with the banner menu...its broken though...and i left it uncommented so its visibly broken. to remind us to fix it. 
 	3. Fixed banner menu in class-home.html
+
+--5/3/17--
+	1. Added more kitchen sink functionality
+	2. Added 1, left/right 2, and 3 column functionality.
+	3. Added News Categories snippet functionality/ cleaned up.
+	4. Added Event Details snippet (still debugging/cleaning up css).
+
+--5/4/17--
+	1. Fixed Event Details snippet (mostly..its ugly but it works; better than it did on the uog-events page at least).
