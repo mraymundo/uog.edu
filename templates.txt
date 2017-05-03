@@ -1,37 +1,43 @@
-NEWS AND ANNOUNCEMENTS TEMPLATE
-http://www.uog.edu/news-announcements/fishing-fun-at-5th-kids-freshwater-fishing-derby
- - move to consolidated header
+DONE
+	NEWS AND ANNOUNCEMENTS TEMPLATE - news menu snippet now on main template.
+	http://www.uog.edu/news-announcements/fishing-fun-at-5th-kids-freshwater-fishing-derby
+ 		- move to consolidated header
 
-NEWS AND ANNOUNCEMENTS LISTING TEMPLATE
-http://www.uog.edu/news-announcements
+	EVENTS TEMPLATE - event details snippet now on main template.
+	http://www.uog.edu/events/2017-center-for-island-sustainability-conference
 
-EVENTS TEMPLATE
-http://www.uog.edu/events/2017-center-for-island-sustainability-conference
+	SCHOOLS AND COLLEGES LANDING PAGE TEMPLATE
+	http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-home
+	http://www.uog.edu/admissions
+ 	- can this page be converted to the same template as schools and colleges?
+	
+	DIVISION PAGE TEMPLATE
+	http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-divisions/communication-and
 
-EVENTS LISTING TEMPLATE
-http://www.uog.edu/events
+	MINI SITE TEMPLATE
+	http://www.uog.edu/uog-press
 
-SCHOOLS AND COLLEGES LANDING PAGE TEMPLATE
-http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-home
-http://www.uog.edu/admissions
- - can this page be converted to the same template as schools and colleges?
+	ONE OFF PAGES
+	uog.edu
 
+
+TODO
 SCHOOLS AND COLLEGES DEGREE PROGRAMS TEMPLATE
 http://www.uog.edu/degrees/bachelor-of-science-in-chemistry
- - can this be incorporated into the main schools and colleges landing page template?
+	- make apply now snippet
+	- related degree programs snippet
 
-DIVISION PAGE TEMPLATE
-http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-divisions/communication-and
+
 
 SPOTLIGHT TEMPLATE (students, faculty, community, research, alumni)
 http://www.uog.edu/student-achievement
+	- make snippets from this for main page
 
-MINI SITE TEMPLATE
-http://www.uog.edu/uog-press
 
 DIRECTORY LISTING TEMPLATE
 http://www.uog.edu/directory
 
 ONE-OFF PAGES
-uog.edu
+http://www.uog.edu/events
+http://www.uog.edu/news-announcements
 http://www.uog.edu/student-services/rfk-library/rfk-library
