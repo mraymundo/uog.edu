@@ -3,6 +3,8 @@
 	1. Called requirejs to include external .js scripts:
 		http://requirejs.org/
 		version 2.3.3 downloaded to uogmedia.guamwebz.com/sites/all/themes/university_guam/js
+		- NOTE: Fix for login dropdown js event not loading:
+			- Find call to sites/all/themes/university_guam/js/scripts and change to <script data-main="sites/all/themes/university_guam/js/scripts.js" src="sites/all/themes/university_guam/js/require.js"></script>
 	
 	2. CONSOLIDATED NECESSARY HTTRACK SCRIPTS TO scripts.js (?)
 		original scripts:

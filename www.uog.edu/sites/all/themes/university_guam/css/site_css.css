@@ -4483,7 +4483,7 @@ body.purple .search_additional .deptclear a{ color:#000000; font-size:16px;}
 .view-node-ical {display: inline-block;}
 .view-id-events .views-row .views-field-view{ margin-top:15px;}
 
-.view-news-and-announcements .sharethis-wrapper{ display:inline-block; padding-right:25px;}
+.view-news-and-announcements .sharethis-wrapper{ display:inline-block; padding-right:4px;}
 .view-news-and-announcements .views-field-nothing{ padding-left:25px;}
 
 .view-events .views-field-sharethis, .view-events .views-field-view{ display:inline-block;}

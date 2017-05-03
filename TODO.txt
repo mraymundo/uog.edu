@@ -4,3 +4,6 @@
 	2. Consult ou dev team to replace uog.edu image sliders with LDP Gallery
 	3. Adjust links in FB app side so uog.edu page can pull the code
 	4. Adjust Google Analyitics links
+
+--5/3/17--
+	1. Get access to sharethis account or establish alternative
