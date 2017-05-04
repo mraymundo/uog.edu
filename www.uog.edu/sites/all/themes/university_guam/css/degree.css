@@ -31,7 +31,7 @@
 #myTab li a:focus { outline: none; } 
 
 .apply_now_btn {
-	padding: 10px;
+	padding-bottom: 10px;
 }
 .apply_now_btn a {
 	text-transform: uppercase;

@@ -17,27 +17,23 @@ DONE
 	MINI SITE TEMPLATE
 	http://www.uog.edu/uog-press
 
+	SCHOOLS AND COLLEGES DEGREE PROGRAMS TEMPLATE
+	http://www.uog.edu/degrees/bachelor-of-science-in-chemistry
+		- make apply now snippet
+		- related degree programs snippet
+
 	ONE OFF PAGES
 	uog.edu
 
-
 TODO
-SCHOOLS AND COLLEGES DEGREE PROGRAMS TEMPLATE
-http://www.uog.edu/degrees/bachelor-of-science-in-chemistry
-	- make apply now snippet
-	- related degree programs snippet
-
-
 
 SPOTLIGHT TEMPLATE (students, faculty, community, research, alumni)
 http://www.uog.edu/student-achievement
 	- make snippets from this for main page
 
 
-DIRECTORY LISTING TEMPLATE
-http://www.uog.edu/directory
-
 ONE-OFF PAGES
+http://www.uog.edu/directory
 http://www.uog.edu/events
 http://www.uog.edu/news-announcements
 http://www.uog.edu/student-services/rfk-library/rfk-library
