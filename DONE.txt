@@ -57,4 +57,6 @@
 	4. Added Event Details snippet (still debugging/cleaning up css).
 
 --5/4/17--
-	1. Fixed Event Details snippet (mostly..its ugly but it works; better than it did on the uog-events page at least).
+	1. Fixed Event Details snippet (mostly..the css is written write into it, but it works; better than it did on the uog-events page at least).
+	2. Created embedded youtube snippet...one that actually resizes with the window, unlike the old one.
+	3. 
