@@ -59,4 +59,7 @@
 --5/4/17--
 	1. Fixed Event Details snippet (mostly..the css is written write into it, but it works; better than it did on the uog-events page at least).
 	2. Created embedded youtube snippet...one that actually resizes with the window, unlike the old one.
-	3. 
+
+--5/8/17--
+	1. Cleaned events.html. Fixed issue of calendar not showing in left column
+	2. Cleaned rfk-library.html. Fixed annoying vertical alignment issues in banner.
