@@ -24,8 +24,8 @@ DONE
 
 	ONE OFF PAGES
 	uog.edu
-	http://www.uog.edu/news-announcements
 	http://www.uog.edu/directory
+	http://www.uog.edu/news-announcements
 
 TODO
 
@@ -37,7 +37,7 @@ TODO
 
 	http://www.soeuog.x10.mx/index.html
 
-	ONE-OFF PAGES
+	ONE-OFF PAGES (need comments)
 	http://www.uog.edu/events
 	http://www.uog.edu/student-services/rfk-library/rfk-library
 	http://www.uog.edu/administration/board-of-regents/board-resolutions
