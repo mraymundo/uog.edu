@@ -24,6 +24,8 @@ DONE
 
 	ONE OFF PAGES
 	uog.edu
+	http://www.uog.edu/directory
+	http://www.uog.edu/news-announcements
 
 TODO
 
@@ -32,8 +34,6 @@ http://www.uog.edu/student-achievement
 	- make snippets from this for main page
 
 
-ONE-OFF PAGES
-http://www.uog.edu/directory
+ONE-OFF PAGES (need comments)
 http://www.uog.edu/events
-http://www.uog.edu/news-announcements
 http://www.uog.edu/student-services/rfk-library/rfk-library

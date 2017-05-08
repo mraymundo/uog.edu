@@ -110,7 +110,7 @@
 var switchTo5x = false; var __st_loadLate = true;
 //--><!]]>
 	</script>
-	<script type="text/javascript" src="../w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 	<script type="text/javascript">
 		<!--//--><![CDATA[//><!--
 if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee75-94d6-bc01be50a0ed", "version": "4x" }); }
@@ -1733,7 +1733,8 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 				<div class="row-fluid">
 					<div class="span3 left_area">
 						<div class="region region-events-left">
-							<div id="block-views-calendar-block-events-block-1" class="block block-views">
+                            <!--***BEGIN MINI CALENDAR (displays one month at a time)-->
+							<div id="block-views-calendar-block-events-block-1" class="block block-views" style="display: block;">
 
 								<h3>Graphical Calendar</h3>
 
@@ -1762,8 +1763,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 													<div class="views-exposed-form">
 														<div class="views-exposed-widgets clearfix">
 															<div id="edit-category-tid-wrapper" class="views-exposed-widget views-widget-filter-field_category_tid">
-																<label for="edit-category-tid">
-            Category          </label>
+																<label for="edit-category-tid">Category          </label>
 																<div class="views-widget">
 																	<div class="form-item form-type-select form-item-category-tid">
 																		<select id="edit-category-tid" name="category_tid" class="form-select"><option value="All" selected="selected">All Events</option><option value="222">Admissions</option><option value="665">Athletics</option><option value="660">Charter Day</option><option value="580">Faculty</option><option value="668">Spring 2016 Commencement</option><option value="706">UOG Press</option><option value="295">Board of Regents</option><option value="411">Student Achievement</option><option value="315">University of Guam</option><option value="176">Academic Calendar</option><option value="181">College of Liberal Arts &amp; Social Sciences</option><option value="182">College of Natural &amp; Applied Sciences</option><option value="183">School of Business &amp; Public Administration</option><option value="184">School of Education</option><option value="185">School of Nursing &amp; Health Sciences</option><option value="178">Student Life</option><option value="223">Research</option><option value="224">Community</option><option value="225">Giving</option><option value="226">Alumni</option><option value="179">Holidays</option><option value="438">Commencement Ceremonies</option><option value="316">Other</option></select>
@@ -1963,6 +1963,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 									</div>
 								</div>
 							</div>
+                            <!--***END MINI CALENDAR-->
 							<div id="block-block-19" class="block block-block full-calander">
 
 
@@ -1970,6 +1971,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 									<p><strong><a id="graphical-calendar" href="#">&gt; Open Full Graphical Calendar</a></strong></p>
 									<hr /> </div>
 							</div>
+                            <!--***BEGIN LINKS TO MONTHLY ARCHIVES-->
 							<div id="block-views-events-block-1" class="block block-views">
 
 								<h3>Archived Events</h3>
@@ -2005,7 +2007,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 												</ul>
 											</div>
 										</div>
-
+                                        <!--***BEGIN EVENT ARCHIVE PAGE LISTING-->
 										<h2 class="element-invisible">Pages</h2>
 										<div class="item-list">
 											<ul class="pager">
@@ -2018,21 +2020,22 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 												<li class="pager-last last"><a title="Go to last page" href="eventsb59c.html?page=0%2C0%2C0%2C4">last »</a></li>
 											</ul>
 										</div>
-
+                                        <!--***END EVENT ARCHIVE PAGE LISTING-->
 
 
 
 									</div>
 								</div>
 							</div>
+                            <!--***END LINKS TO MONTHLY ARCHIVES-->
+                            <!--***BEGIN POST INVITE BLOCK-->
 							<div id="block-block-20" class="block block-block">
-
 								<h3>Post Your Event</h3>
-
 								<div class="content">
 									<p>Have an Event you want to post in the UOG Calendar? <br />Tell us about it, <a title="Contact Us" href="contact-us.html">Contact Us! </a></p>
 								</div>
 							</div>
+                            <!--***END POST INVITE BLOCK-->
 						</div>
 					</div>
 					<div class="span3 pull-right right_area">
@@ -2095,15 +2098,14 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 								<div class="content">
 
 									<div class="view view-events view-id-events view-display-id-page view-dom-id-125ffbc81aecdd0560ac4556abe6ceac">
-
+                                        <!--***BEGIN EVENTS SEARCH FILTER-->
 										<div class="view-filters">
 											<form action="http://www.uog.edu/events" method="get" id="views-exposed-form-events-page" accept-charset="UTF-8">
 												<div>
 													<div class="views-exposed-form">
 														<div class="views-exposed-widgets clearfix">
 															<div id="edit-key-wrapper" class="views-exposed-widget views-widget-filter-combine">
-																<label for="edit-key">
-            Keywords          </label>
+																<label for="edit-key">Keywords          </label>
 																<div class="views-widget">
 																	<div class="form-item form-type-textfield form-item-key">
 																		<input type="text" id="edit-key" name="key" value="" size="30" maxlength="128" class="form-text" />
@@ -2111,8 +2113,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 																</div>
 															</div>
 															<div id="edit-field-events-date-value-wrapper" class="views-exposed-widget views-widget-filter-field_events_date_value">
-																<label for="edit-field-events-date-value">
-            Date          </label>
+																<label for="edit-field-events-date-value">Date          </label>
 																<div class="views-widget">
 																	<div id="edit-field-events-date-value-value-wrapper">
 																		<div id="edit-field-events-date-value-value-inside-wrapper">
@@ -2133,8 +2134,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 																</div>
 															</div>
 															<div id="edit-field-tags-wrapper" class="views-exposed-widget views-widget-filter-field_tags_tid">
-																<label for="edit-field-tags">
-            Tags          </label>
+																<label for="edit-field-tags">Tags          </label>
 																<div class="views-widget">
 																	<div class="form-item form-type-select form-item-field-tags">
 																		<select id="edit-field-tags" name="field_tags" class="form-select"><option value="All" selected="selected">- Any -</option><option value="102">4H</option><option value="389">A Single Man</option><option value="378">accomplishment</option><option value="377">achievement</option><option value="232">Admissions</option><option value="211">Agriculture</option><option value="18">Alumni</option><option value="692">anthropology</option><option value="200">ARC</option><option value="314">army</option><option value="337">arts</option><option value="696">athletics</option><option value="17">Award winning faculty</option><option value="302">Biba Tritons</option><option value="292">Biba UOG</option><option value="694">bill jeffery</option><option value="248">Board of Regents</option><option value="197">BOR</option><option value="133">Business</option><option value="365">business government</option><option value="20">Campus Map</option><option value="277">career</option><option value="412">CariPac Summer Camp 2015</option><option value="280">cash prizes</option><option value="271">celebrate</option><option value="370">celebration</option><option value="293">ceremony</option><option value="210">CES</option><option value="328">Chamorro music</option><option value="287">charity</option><option value="334">charter</option><option value="202">Charter Day</option><option value="379">Charter Day 2015</option><option value="129">Christmas</option><option value="283">Christmas Drop</option><option value="199">CLASS</option><option value="304">classes</option><option value="350">cleanup</option><option value="690">Clinical psychology</option><option value="274">College and Career Fair</option><option value="307">commerce</option><option value="312">commissioning</option><option value="394">community</option><option value="351">community service</option><option value="327">Concert</option><option value="330">conservation</option><option value="272">contest</option><option value="338">culture</option><option value="340">discussion</option><option value="284">donate</option><option value="320">ecology</option><option value="367">election</option><option value="396">end suicide</option><option value="297">engineering</option><option value="309">enterprise</option><option value="348">environment</option><option value="105">Extension</option><option value="391">fair</option><option value="369">family</option><option value="329">farming</option><option value="347">fellowships</option><option value="655">field house</option><option value="267">fieldhouse</option><option value="336">film</option><option value="254">fine arts</option><option value="103">Fisheries</option><option value="362">fitness</option><option value="374">formal</option><option value="375">founders</option><option value="359">fruit</option><option value="317">Fulbright</option><option value="344">fun</option><option value="385">game</option><option value="381">games</option><option value="319">Germany</option><option value="335">GIFF</option><option value="282">giving</option><option value="384">golf</option><option value="355">government</option><option value="134">Graduate</option><option value="691">graduate studies</option><option value="299">graduation</option><option value="311">healthy</option><option value="174">Holiday</option><option value="16">Inspiring Students</option><option value="318">international</option><option value="303">intersession</option><option value="276">interview</option><option value="261">Isla</option><option value="285">islands</option><option value="399">jazz</option><option value="390">job</option><option value="360">juice</option><option value="356">lecture</option><option value="358">local</option><option value="310">local business</option><option value="781">Marc</option><option value="341">marine sceicne</option><option value="357">marine science</option><option value="289">meeting</option><option value="388">mental health</option><option value="322">Micronesia</option><option value="313">military</option><option value="268">movie tickets</option><option value="397">music</option><option value="699">national student exchange</option><option value="342">natural resources</option><option value="382">No Place Like Home</option><option value="376">nominate</option><option value="698">nse</option><option value="349">ocean</option><option value="192">outage maintenance computer center it</option><option value="130">Party</option><option value="298">physics</option><option value="400">Pi Day</option><option value="372">picnic</option><option value="324">planning</option><option value="132">PMBA</option><option value="339">presentation</option><option value="380">President&#039;s Cup</option><option value="247">Presidential Lecture Series</option><option value="386">Presidents Cup</option><option value="251">PSL</option><option value="354">ptac</option><option value="290">public</option><option value="345">raffle prizes</option><option value="353">rcuog</option><option value="249">regular meeting</option><option value="201">Research</option><option value="275">resume</option><option value="291">retirees</option><option value="286">Salvation Army</option><option value="361">samples</option><option value="230">SBDC</option><option value="131">SBPA</option><option value="321">science</option><option value="373">seniors</option><option value="294">service</option><option value="227">SGA</option><option value="398">singers</option><option value="325">skills</option><option value="323">small business</option><option value="697">soccer</option><option value="331">soil</option><option value="392">speaker</option><option value="269">sports</option><option value="104">STEM</option><option value="266">student</option><option value="301">student achievement</option><option value="281">student center</option><option value="346">student organizations</option><option value="296">student presentation</option><option value="401">student research</option><option value="300">success</option><option value="387">suicide</option><option value="393">suicide prevention</option><option value="395">support</option><option value="279">talent</option><option value="333">technical help</option><option value="78">test</option><option value="270">thanksgiving</option><option value="253">theatre</option><option value="252">theatre fine arts</option><option value="785">TracDat  V</option><option value="326">training</option><option value="198">Tri-Board</option><option value="474">TriO</option><option value="368">triton family</option><option value="278">Triton pride</option><option value="273">tritonfamily</option><option value="343">Tritons got talent</option><option value="364">tropy</option><option value="363">tshirts</option><option value="243">Tuition</option><option value="693">undergraduate research</option><option value="784">University Assessment Commitee</option><option value="473">University of Guam</option><option value="242">University Singers</option><option value="128">UOG</option><option value="19">UOG community impact</option><option value="15">UOG contact information</option><option value="308">value-added</option><option value="371">volleyball</option><option value="352">volunteer</option><option value="332">water</option><option value="231">Workshop</option><option value="695">yap</option></select>
@@ -2166,15 +2166,13 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 												</div>
 											</form>
 										</div>
+                                        <!--***END EVENTS SEARCH FILTER-->
 										<div class="view-header">
 											<h3>Current & Upcoming Events</h3>
 										</div>
-
-
-
+                                        <!--***BEGIN EVENTS LISTING-->
 										<div class="view-content">
 											<div class="views-row views-row-1 views-row-odd views-row-first">
-
 												<div class="views-field views-field-field-photo-image">
 													<div class="field-content"></div>
 												</div>
@@ -2705,6 +2703,7 @@ if (stLight !== undefined) { stLight.options({ "publisher": "dr-a747b5ed-3a58-ee
 </div></span> </span>
 	</div>
 	</div>
+    <!--***END EVENTS LISTING-->
 
 	<h2 class="element-invisible">Pages</h2>
 	<div class="item-list">
