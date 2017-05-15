@@ -63,3 +63,7 @@
 --5/8/17--
 	1. Cleaned events.html. Fixed issue of calendar not showing in left column
 	2. Cleaned rfk-library.html. Fixed annoying vertical alignment issues in banner.
+
+--5/15/17
+	1. Pushed all the changes from last week... basically more javascript include troubleshooting on class-home. and adding snippets to class-home.html from a lot of other pages (see templates doc).
+	2. Began work on creating student-achievement design files.
