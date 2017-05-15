@@ -8,8 +8,6 @@ DONE
 
 	SCHOOLS AND COLLEGES LANDING PAGE TEMPLATE
 	http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-home
-	http://www.uog.edu/admissions
- 	- can this page be converted to the same template as schools and colleges?
 	
 	DIVISION PAGE TEMPLATE
 	http://www.uog.edu/schools-and-colleges/college-of-liberal-arts-and-social-sciences/class-divisions/communication-and
@@ -32,6 +30,8 @@ TODO
 	SPOTLIGHT TEMPLATE (students, faculty, community, research, alumni)
 		http://www.uog.edu/student-achievement
 		- make snippets from this for main page
+	http://www.uog.edu/admissions
+ 	- can this page be converted to the same template as schools and colleges?
 	http://www.uog.edu/alumni/alumni-home
 	http://www.uog.edu/giving/vision-2025-21st-century-campus
 
@@ -55,3 +55,5 @@ http://www.uog.edu/campus-map
 http://www.uog.edu/contact-us
 http://cnas-re.uog.edu
 http://micronesica.org/
+http://www.uog.edu/admissions
+ - can this page be converted to the same template as schools and colleges?
