@@ -5042,12 +5042,12 @@ h1#page-title.athletics_name{ background-color: #00652E; color:#FFFFFF; padding-
 
 .page-node-17007 #block-system-main,.page-node-17008 #block-system-main,.page-node-17009 #block-system-main{ width:75%; float:left;}
 #block-views-uog-press-publication-block-2,#block-views-uog-press-publication-block-3,#block-views-uog-press-publication-block-4{ width:75%; float:left;}
-.span8.banner_overlay{ position: absolute;top: 65px;left: 0; right:0; margin:auto;background-color: rgba(239, 220, 190, 0.79); padding: 2.7em 2.5em 33px; border-radius: 25px;}
+.span8.banner_overlay{ position: absolute;top: 85px;left: 0; right:0; margin:auto;background-color: rgba(239, 220, 190, 0.79); padding: 2.7em 2.5em 33px; border-radius: 25px;}
 .span8.banner_overlay h3{font-size: 28px; color: #403c3b;  text-transform: uppercase;  margin: 0;}
 .span8.banner_overlay h3:before{content: "\f002";font-family: FontAwesome;transform: rotate(90deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(90deg); display: inline-block;font-size: 25px; padding:2px;}
 .banner_overlay .tabbable ul{ background:#eee;}
 
-.rfp_title{position: absolute; top: 0; left: 0; right: 0; margin: auto; text-align: center;top: 0px;}
+.rfp_title{position: absolute; top: 0; left: 0; right: 0; margin: auto; text-align: center;top: 20px;}
 .rfp_title_inner{color: #fff; font-size: 42px; font-weight: bold;}
 
 .banner_overlay .ebscohost-search-button { margin-bottom:15px;}
