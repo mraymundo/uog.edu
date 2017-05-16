@@ -292,8 +292,9 @@
 
                                                     <div class="content">
                                                         <div data-duration="400" data-delay="100" id="tb-megamenu-main-menu" class="tb-megamenu tb-megamenu-main-menu style-green animate elastic">
-                                                            <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button" value="">
-                                                                <em class="icon-reorder"></em><span style="display:none;">Navigation Menu</span>
+                                                            <!--NOTE - Extra hamburger button was redering within expandable main menu. Solution: moved style="display:none;" from <span> to <button>-->
+                                                            <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button" value="" style="display:none;">
+                                                                <em class="icon-reorder"></em><span>Navigation Menu</span>
                                                             </button>
                                                             <div class="nav-collapse collapse always-show">
                                                                 <ul class="tb-megamenu-nav nav level-0 items-15">
