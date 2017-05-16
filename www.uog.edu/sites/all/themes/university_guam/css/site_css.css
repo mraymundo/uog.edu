@@ -807,17 +807,17 @@ overflow:hidden;
 .pane-featured-story-home-panel-pane-1 .views-field-body { display:none; }
 .pane-featured-story-home-panel-pane-1, .pane-featured-story-home-panel-pane-2 { background-color:#191919; position:relative; }
 .pane-featured-story-home-panel-pane-1 .flexslider, .pane-featured-story-home-panel-pane-2 .flexslider { margin: 0 0 0px; background:none; border:none; position: relative; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; -webkit-box-shadow:none; -moz-box-shadow:none; -o-box-shadow:none; box-shadow:none; }
-#featured .flex-direction-nav a { height:24px; width:16px; margin-top:12px; color:#00652E; font-size:0; line-height:0; opacity:.9; text-shadow:none; display:block; }
+#featured .flex-direction-nav a { height:24px; width:16px; color:#00652E; font-size:0; line-height:0; opacity:.9; text-shadow:none; display:block; }
 #featured .flex-direction-nav a:before { font-size:0; content:''; }
-#featured .flex-direction-nav a.flex-prev { background:url(img/left-arrow-wh.png) no-repeat; left:-30px; }
-#featured .flex-direction-nav a.flex-next { background:url(img/right-arrow-wh.png) no-repeat; left:inherit; right:-30px; }
+#featured .flex-direction-nav a.flex-prev { background:url(img/left-arrow-wh.png) no-repeat; left:30px; }
+#featured .flex-direction-nav a.flex-next { background:url(img/right-arrow-wh.png) no-repeat; left:inherit; right:30px; }
 #featured .flex-direction-nav a.flex-prev:hover { background:url(img/left-arrow2.png) no-repeat }
 #featured .flex-direction-nav a.flex-next:hover { background:url(img/right-arrow2.png) no-repeat }
 #featured .pane-featured-story-home-panel-pane-2 .flex-direction-nav a { margin-top:0px; top:50px; }
 #featured .pane-featured-story-home-panel-pane-2 .views-field-title { color:#FFF; font-weight:bold; text-align:center; margin-top:5px; }
 #featured .pane-featured-story-home-panel-pane-2 .views-field-field-field-featuredhome-image { border:solid 3px #191919; cursor:pointer; }
 #featured .pane-featured-story-home-panel-pane-2 li:hover .views-field-field-field-featuredhome-image, #featured .pane-featured-story-home-panel-pane-2 .flex-active-slide .views-field-field-field-featuredhome-image { border-color:#A8B400; }
-#featured .flexslider .slides img { width:auto; }
+#featured .flexslider .slides img { width:100%; }
 #featured .pane-featured-story-home-panel-pane-2 .flex-viewport li { margin-right:10px; cursor:pointer; }
 #featured .pane-featured-story-home-panel-pane-1 li { }
 #featured .pane-featured-story-home-panel-pane-1 #gallery-main-slider { }
@@ -2208,7 +2208,10 @@ display:none!important
 .student-achivement #featured_links { margin:10px 15px 18px; background:#00652E; }
 .student-achivement .mid_area { padding:10px; }
 .student-achivement .view-display-id-panel_pane_30 .views-row { margin-bottom:15px; }
-.student-achivement .view-display-id-panel_pane_30 .views-row-odd { background:#ceb1c0; padding:10px; }
+.student-achivement .view-display-id-panel_pane_30 .views-row-odd {
+    background: #d8e8de;
+    padding: 10px;
+}
 .student-achivement .view-display-id-panel_pane_30 .views-row-odd a { color:#00652E !important; }
 .student-achivement .view-display-id-panel_pane_30 .views-row-even a { color:#00652E !important; }
 .student-achivement .view-display-id-panel_pane_30 .views-row-even { background:#e7e7e8; padding:10px; }
