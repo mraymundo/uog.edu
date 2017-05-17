@@ -72,3 +72,7 @@
 	1. "Converted" admissions-home.html to 2-column format
 	2. Brought in helpline.html, board-resolutions.html, and board-of-regents-home.html (this last one mainly for ease of in-browser navigation)
 	3. Fixed odd extra hamburger button displaying in kitchen sink dropdown menus
+
+--5/17/17
+	1. Added campus-map.html and vision-2025.html
+	2. Various cleanings up
