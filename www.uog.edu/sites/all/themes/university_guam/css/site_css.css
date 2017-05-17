@@ -811,8 +811,8 @@ overflow:hidden;
 #featured .flex-direction-nav a:before { font-size:0; content:''; }
 #featured .flex-direction-nav a.flex-prev { background:url(img/left-arrow-wh.png) no-repeat; left:30px; }
 #featured .flex-direction-nav a.flex-next { background:url(img/right-arrow-wh.png) no-repeat; left:inherit; right:30px; }
-#featured .flex-direction-nav a.flex-prev:hover { background:url(img/left-arrow2.png) no-repeat }
-#featured .flex-direction-nav a.flex-next:hover { background:url(img/right-arrow2.png) no-repeat }
+#featured .flex-direction-nav a.flex-prev:hover { background:url(img/left-arrow1.png) no-repeat; opacity:.5 }
+#featured .flex-direction-nav a.flex-next:hover { background:url(img/right-arrow1.png) no-repeat; opacity:.5 }
 #featured .pane-featured-story-home-panel-pane-2 .flex-direction-nav a { margin-top:0px; top:50px; }
 #featured .pane-featured-story-home-panel-pane-2 .views-field-title { color:#FFF; font-weight:bold; text-align:center; margin-top:5px; }
 #featured .pane-featured-story-home-panel-pane-2 .views-field-field-field-featuredhome-image { border:solid 3px #191919; cursor:pointer; }
