@@ -20,12 +20,17 @@ DONE
 		- make apply now snippet
 		- related degree programs snippet
 
+
+	http://www.uog.edu/administration/graduate-studies-sponsored-programs-and-research/gsspr-home 
+	http://www.uog.edu/giving/vision-2025-21st-century-campus
+	http://www.uog.edu/contact-us
+	http://www.uog.edu/campus-map
+
 	ONE OFF PAGES
 	uog.edu
 	http://www.uog.edu/directory
 	http://www.uog.edu/news-announcements
-
-TODO
+	http://www.uog.edu/events
 
 	SPOTLIGHT TEMPLATE (students, faculty, community, research, alumni)
 		http://www.uog.edu/student-achievement
@@ -33,28 +38,11 @@ TODO
 	http://www.uog.edu/admissions
  	- can this page be converted to the same template as schools and colleges?
 
-
-	http://www.uog.edu/giving/vision-2025-21st-century-campus
-
+TODO
 	http://www.soeuog.x10.mx/index.html
-
-	ONE-OFF PAGES (need comments)
-	http://www.uog.edu/events
-	http://www.uog.edu/student-services/rfk-library/rfk-library
 	http://www.uog.edu/administration/board-of-regents/board-resolutions
 	http://www.uog.edu/helpline
 
-
-	http://www.ml.uog.edu/
-	- redesign banner scroller for schools and colleges pages to be like this
-
 Ask Jonas
-http://www.uog.edu/administration/graduate-studies-sponsored-programs-and-research/gsspr-home 
-	- news snippet/main column layout?
-http://www.uog.edu/giving/vision-2025-21st-century-campus
-http://www.uog.edu/campus-map
-http://www.uog.edu/contact-us
-http://cnas-re.uog.edu
-http://micronesica.org/
 http://www.uog.edu/admissions
  - can this page be converted to the same template as schools and colleges?
