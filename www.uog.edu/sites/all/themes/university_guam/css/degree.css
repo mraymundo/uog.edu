@@ -131,13 +131,31 @@ body.blue .apply_now_btn a:hover {
 .view-degree-program-detail .apply_bottom  .panel-heading{ padding:0;}
 .view-degree-program-detail .apply_bottom .panel-body{ padding:0;}
 .apply_bottom .degree_link  a {color:#000000 !important; font-size:18px; font-weight:bold;}
+
+.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    content: url(img/expand_black_d.png); /* adjust as needed, taken from bootstrap.css */
+    float: right; /* adjust as needed */
+    margin-top: -30px;
+    margin-right: 10px;
+    opacity:0.8;
+
+}
+
+.accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: url(img/expand_black_up.png); /* adjust as needed, taken from bootstrap.css */
+    opacity: 0.8;
+}
+
+
 body.blue .back_degrees a {
 	font-size:14px;
 }
 body.blue .degree_link a:hover, body.blue .back_degrees a:hover {
 	color:#00759A;
 }
-body.blue .view-degree-program-detail .panel-default > .panel-heading{background-color: #00759A;border-color: #9ecde1;color: #FFF;}
+body.blue .view-degree-program-detail .panel-default > .panel-heading{background-color: #00759A;border-color: #9ecde1;color: #FFF; text-decoration:none;}
 body.blue .view-degree-program-detail .panel-default{border-color: #9ecde1;}
 body.blue .view-degree-program-detail .panel-title > a{ color:#FFFFFF;}
 body.blue .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .panel-body, body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-collapse > .list-group{border-color: #9ecde1;}
@@ -547,6 +565,7 @@ body.purple .view-degree-program-detail .panel-group .panel-heading + .panel-col
     font-size: 16px;
     color: inherit;
 }
+
 .view-degree-program-detail .panel-title > a,
 .view-degree-program-detail .panel-title > small,
 .view-degree-program-detail .panel-title > .small,
