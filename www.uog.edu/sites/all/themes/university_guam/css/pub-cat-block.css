@@ -1,0 +1,140 @@
+#pub-cat-block {
+    float: right;
+    padding-top: 1em;
+    width: 100%;
+    background-color: #F1F1F1;
+}
+#pub-cat-block h3 {
+    color: #000!important;
+    font-size: 22px!important;
+    text-align: center;
+}
+#pub-cat-block .content {
+    padding: 0!important;
+    font: normal 14px "FrutigerCE55RomanRegular", "Myriad Pro", Arial, sans-serif;
+    font-synthesis: weight style;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+}
+
+#pub-cat-block ul {
+    background: none;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#pub-cat-block ul.menu {
+border: none;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image-source: none;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-width: 1 1 1 1;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+text-align: left;
+}
+#pub-cat-block li {
+    line-height: 20px!important;
+}
+#pub-cat-block ul li {
+border-bottom: solid 1px #ddd;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 221, 221);
+margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#pub-cat-block a {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif !important;
+text-decoration: none;
+    text-decoration-color: currentcolor;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+transition: all 0.3s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+#pub-cat-block ul li a {
+    padding: 10px 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: block;
+}
+#pub-cat-block ul li li a {
+    padding-left: 30px;
+    font-style: italic;
+}
+#pub-cat-block ul li:hover > a {
+    background-color: #00652E;
+    color: white;
+}
+#pub-cat-block ul li:last-child {
+    border: 0;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+}
