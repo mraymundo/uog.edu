@@ -828,7 +828,7 @@ overflow:hidden;
 .pane-featured-videos-panel-pane-1 .views-field-title { text-align:center; display:block; font-size:15px; margin-top:8px; }
 .pane-featured-videos-panel-pane-1 .views-field-body { position:absolute; width:100%; top:-5px; bottom:auto; visibility:hidden; opacity:0; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 .pane-featured-videos-panel-pane-1 li:hover .views-field-body { visibility:visible; opacity:1; }
-.pane-featured-videos-panel-pane-1 .views-field-body .field-content { font-size:12px; font-weight:normal; line-height:normal; padding: 10px; color: #fff; text-align:center; background: #666\9; background: rgba(80, 80, 80, 0.75); }
+.pane-featured-videos-panel-pane-1 .views-field-body .field-content { font-size:12px; font-weight:normal; line-height:normal; padding: 10px; color: #fff; text-align:center; background: #666\9; background: rgba(80, 80, 80, 0.75); text-decoration:none;}
 .pane-featured-videos-panel-pane-1 .video-pop { position:relative; }
 .pane-featured-videos-panel-pane-1 .video-play { background:url(img/youtube-play.png) center center no-repeat; height:64px; width:64px; position:absolute; top:50%; left:50%; margin:-32px 0 0 -32px; cursor:pointer; visibility:hidden; opacity:0; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 .pane-featured-videos-panel-pane-1 li:hover .video-play { visibility:visible; opacity:1; }
@@ -1904,9 +1904,10 @@ margin-left:0px;
 #pagearea table p { margin-bottom:0; }
 #pagearea table tbody tr th { vertical-align: top; }
 #pagearea tr td, #pagearea tr th { padding: 4px 9px; border: 1px solid #fff; text-align: left; /* LTR */ }
-#pagearea tr.odd { background: #e4e4e4; background: rgba(0, 0, 0, 0.105); }
-#pagearea tr, #pagearea tr.even { background: #efefef; background: rgba(0, 0, 0, 0.063); }
+#pagearea tr.odd { background: #e4e4e4; background: white; }
+#pagearea tr, #pagearea tr.even { background: #efefef; background: white; }
 #pagearea table ul.links li { padding: 0 1em 0 0; }
+#pagearea td:hover {background-color: #f5f5f5}
  @media (max-width: 767px) {
 
 	/* Force table to not be like tables anymore */
