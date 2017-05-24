@@ -2879,6 +2879,7 @@ visibility: visible;
 padding:10px 10px 10px 35px;
 }
 }
+.accordion-toggle .panel-heading {background-color: rgb(228, 229, 230);}
 .view-display-id-attachment_1 .views-summary a, .view-display-id-attachment_2 .views-summary a { padding:0 5px; font-size:16px; }
 body.purple.page-node-11995 .view-degree-program-detail .panel-default > .panel-heading { background-color: #fff; border-color: rgb(0, 101, 46); color: rgb(0, 101, 46); }
 body.purple.page-node-11995 .view-degree-program-detail .panel-default { border-color: rgb(0, 101, 46); width:75%; }
