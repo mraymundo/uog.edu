@@ -76,3 +76,7 @@
 --5/17/17
 	1. Added campus-map.html and vision-2025.html
 	2. Various cleanings up
+
+--5/19/17
+	NOTE: To fix fontawesome icons not rendering locally in Firefox (e.g., uog-press publication page tabs), do the following:
+		- go to about:config and change the security.fileuri.strict_origin_policy preference to false.

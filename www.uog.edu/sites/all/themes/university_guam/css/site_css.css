@@ -2879,6 +2879,7 @@ visibility: visible;
 padding:10px 10px 10px 35px;
 }
 }
+.accordion-toggle .panel-heading {background-color: rgb(228, 229, 230);}
 .view-display-id-attachment_1 .views-summary a, .view-display-id-attachment_2 .views-summary a { padding:0 5px; font-size:16px; }
 body.purple.page-node-11995 .view-degree-program-detail .panel-default > .panel-heading { background-color: #fff; border-color: rgb(0, 101, 46); color: rgb(0, 101, 46); }
 body.purple.page-node-11995 .view-degree-program-detail .panel-default { border-color: rgb(0, 101, 46); width:75%; }
@@ -4910,6 +4911,13 @@ body.purple.uogpress #sub_header .top { background:transparent;}
 #block-views-uog-press-publication-block-1 div.horizontal-tabs{border:0;}
 
 #block-views-uog-press-publication-block-1 .horizontal-tabs ul.horizontal-tabs-list li.selected a{color:#fff;}
+.horizontal-tab-button{
+    border-right: 1px solid #dedede; /* LTR */
+    border-left: 1px solid #dedede; /* LTR */
+    border-top: 1px solid #dedede; /* LTR */
+    margin-left: 0.5em!important;
+    margin-right: 0.5em!important;
+}
 .horizontal-tab-button a:before{display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;

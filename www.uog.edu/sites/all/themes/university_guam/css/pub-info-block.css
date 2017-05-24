@@ -1,0 +1,66 @@
+#pub-info-block {
+    float: left;
+    width: 100%;
+    display: table;
+}
+#pub-info-block .pub-cover {
+    width: 135px !important;
+    border-radius: 4px;
+    border: 6px solid white;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    padding-right: 0px;
+    margin: 0px 20px 5px 0px;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    float: left;
+    display: inline-block;
+}
+#pub-info-block .views-field-title {
+    width: 75%;
+    float: left;
+    display: inline-block;
+}
+#pub-info-block .views-field-title h3 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif !important;
+    color: #00652E;
+    font-size: 18px;
+}
+#pub-info-block .views-field-field-info1 {
+    display: inline-block;
+    color: #847d7d;
+    padding-right: 15px;
+    padding-bottom: 7px;
+}
+#pub-info-block .views-field-field-info {
+    color: #847d7d;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    display: inherit;
+}
+#pub-info-block .views-label-field-info-l {
+    font-weight: bold;
+}
+#pub-info-block .views-field .field-content {
+    display: inline-block;
+}
+#pub-info-block .views-field .field-content p {
+    margin: 0 0 15px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+#pub-info-block .views-field-nothing {
+    width: 75%;
+    float: left;
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+#pub-moreinfo-box {
+    margin-top: 30px;
+}
+.main-box {
+    width: 100%;
+}
+.main-box .field-content {
+    width: 100%;
+}
