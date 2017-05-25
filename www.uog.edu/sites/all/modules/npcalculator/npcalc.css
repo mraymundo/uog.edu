@@ -1,0 +1,125 @@
+
+                                                                                                            .calculator_fin {
+                                                                                                                border: 0;
+                                                                                                                border-spacing: 0;
+                                                                                                                margin: 0 !important;
+                                                                                                                max-width: 100%;
+                                                                                                                border-collapse: inherit;
+                                                                                                                width: 796px;
+                                                                                                            }
+                                                                                                            .calculator_fin .left-b {
+                                                                                                                 width: 12px;
+                                                                                                                 background: url(../../../default/files/border_left.png) repeat-y;
+                                                                                                            }
+                                                                                                            .calculator_fin .bod {
+                                                                                                                text-align: left;
+                                                                                                                vertical-align: top;
+                                                                                                                background-color: #fffef5;
+                                                                                                                padding-top:17px;
+                                                                                                                padding-bottom:20px;
+                                                                                                            }
+
+                                                                                                                .calculator_fin tbody {
+                                                                                                                    border: 0;
+                                                                                                                }
+
+                                                                                                                .calculator_fin img {
+                                                                                                                    max-width: inherit;
+                                                                                                                }
+
+                                                                                                            .calculator_fin {
+                                                                                                                border-top: 0;
+                                                                                                            }
+
+                                                                                                            #pagearea .calculator_fin tr, #pagearea .calculator_fin tr.even {
+                                                                                                                background: none;
+                                                                                                            }
+
+                                                                                                                #pagearea .calculator_fin tr td, #pagearea .calculator_fin tr th {
+                                                                                                                    padding: 0;
+                                                                                                                    border: 0;
+                                                                                                                    text-align: inherit;
+                                                                                                                }
+                                                                                                            
+                                                                                                            #pagearea table {
+                                                                                                                margin: 0;
+                                                                                                            }
+
+                                                                                                            .calculator_fin input {
+                                                                                                                font-family: Arial;
+                                                                                                                font-size: 13px;
+                                                                                                            }
+
+                                                                                                            .calculator_fin .formtable {
+                                                                                                                font-size: 13px;
+                                                                                                                width: 100%;
+                                                                                                            }
+
+                                                                                                                .calculator_fin .formtable td {
+                                                                                                                    padding-bottom: 15px;
+                                                                                                                }
+
+                                                                                                            .calculator_fin input[type="radio"], input[type="checkbox"] {
+                                                                                                                margin: -1px 0 0;
+                                                                                                            }
+
+                                                                                                            .calculator_fin .disclaimer {
+                                                                                                                margin-top: 0px;
+                                                                                                                margin-right: 8px;
+                                                                                                                margin-bottom: 20px;
+                                                                                                                /*width:220px;*/
+                                                                                                                width: 480px;
+                                                                                                                font-family: Arial;
+                                                                                                                font-weight: normal;
+                                                                                                                font-size: 11px;
+                                                                                                                text-align: left;
+                                                                                                            }
+
+                                                                                                            .calculator_fin .summarytable td {
+                                                                                                                border-bottom: solid 1px #c7ddea;
+                                                                                                                padding: 6px 1px 7px 4px;
+                                                                                                            }
+
+                                                                                                            .calculator_fin .boldtd {
+                                                                                                                font-weight: bold;
+                                                                                                                font-family: Arial;
+                                                                                                                font-size: 12px;
+                                                                                                                color: #336699;
+                                                                                                                width: 150px;
+                                                                                                            }
+
+                                                                                                            .calculator_fin .title1 {
+                                                                                                                color: #336699;
+                                                                                                                font-family: Arial;
+                                                                                                                font-size: 12px;
+                                                                                                                font-weight: bold;
+                                                                                                            }
+
+                                                                                                            .calculator_fin .title2 {
+                                                                                                                color: #333333;
+                                                                                                                font-family: Arial;
+                                                                                                                font-size: 13px;
+                                                                                                                font-weight: bold;
+                                                                                                            }
+                                                                                                            .centered { 
+                                                                                                                width: 796px; 
+                                                                                                                margin-left: auto; 
+                                                                                                                margin-right: auto;
+                                                                                                            }
+                                                                                                            .top-left {
+                                                                                                                align: left; 
+                                                                                                                vertical-align: top;
+                                                                                                            }
+                                                                                                            .mid-left {
+                                                                                                                align: left;
+                                                                                                                vertical-align: middle;
+                                                                                                            }
+                                                                                                            .top-right {
+                                                                                                                align: right;
+                                                                                                                vertical-align: top;
+                                                                                                                width: 200px;
+                                                                                                            }
+
+                                                                                                            .onefour {
+                                                                                                                width: 140px;
+                                                                                                            }
