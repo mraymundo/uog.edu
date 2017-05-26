@@ -31,9 +31,7 @@
 	4. Fixed issue of Contact Us tab content not loading in mini site
 		- Issue currently replicates site-wide on live uog.edu
 		- FIX = Content container div id value did not match tab href value (id="tab-contacts", href="#tab-contactz")
-			- W.T.F.?????????(&*^*(&^)*&*)G *)&G )*&Y)(* N
 	5. Finished function block comments for class-home.html
-	6. Pardon the git brain fart, i.e., the dual commits 13 minutes apart.....
 
 --4/28/17--
 	1. Fixed w3 validation errors in index.html and class-home.html
