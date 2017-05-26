@@ -2987,7 +2987,7 @@ body.purple .sbpa .left_area .menu, .sbpa .pane-menu-school-of-business-public {
 body.accent-green .sbpa .left_area .menu, .sbpa .pane-menu-college-of-natural-applied { background: #EAEFA7; }
 body.purple .sbpa .left_area .menu, .sbpa .pane-menu-college-of-natural-applied { background: #00652E; }
 body.purple.class .sbpa .left_area .menu, .sbpa .pane-menu-college-of-natural-applied { background: #d8e8de; }
-.purple #minisites.sbpa .left_area .menu-block-wrapper li.first { border-top: 5px solid #00759A; }
+.purple #minisites.sbpa .left_area .menu-block-wrapper li.first { }
 body.blue #minisites.sbpa .left_area .pane-views-panes .pane-title, body.blue #minisites.sbpa .left_area .pane-menu-tree .pane-title, body.blue #minisites.sbpa .left_area .menu-block-wrapper li.expanded h3 { color:#FFFFFF; }
 body.blue #minisites.sbpa .left_area .pane-views-panes .pane-title, body.blue #minisites.sbpa .left_area .pane-menu-tree .pane-title, body.blue #minisites.sbpa .left_area .menu-block-wrapper li.expanded h3 { color:#FFFFFF; }
 body.blue #minisites.sbpa .left_area .pane-views-panes a:hover, body.blue #minisites.sbpa .left_area .menu-block-wrapper li a.active, #minisites.sbpa .left_area .menu-block-wrapper li a.active, #minisites.sbpa .left_area .pane-views-panes li.views-row a:hover, body.blue #minisites.sbpa .left_area .pane-views-panes a:hover, body.blue #minisites.sbpa .left_area .menu-block-wrapper li a:hover { font-weight:bold; }
@@ -3028,7 +3028,7 @@ body.purple.cnas #minisites #events, body.accent-green.cnas .pane-home-events-pa
 .purple .sbpa .minisite-events ul li.views-row .views-field-title a { color: #00652E; }
 body.purple.cnas #minisites #events, body.accent-green.cnas .pane-home-events-panel-pane-2 { background:none; }
 .purple .sbpa .minisite-events ul li.views-row .views-field-title a { color: #00652E; }
-.purple #minisites.sbpa .left_area .menu-block-wrapper li.first { border-top: 5px solid #00652E; }
+.purple #minisites.sbpa .left_area .menu-block-wrapper li.first { line-height:25px; }
 body.blue .sbpa a, body.blue .sbpa h3, body.blue .sbpa h6 { color:#4282a5; }
 body.blue .sbpa #sub_header .top, body.blue .sbpa #sub_header .slider { background-color:#4282a5; }
 body.blue #minisites.sbpa .left_area .pane-views-panes .pane-title, body.blue #minisites.sbpa .left_area .pane-menu-tree .pane-title, body.blue #minisites.sbpa .link_list.helpful h3, body.blue #minisites.sbpa .left_area .pane-views-panes li.expanded h3, body.blue #minisites.sbpa .left_area .menu-block-wrapper li.expanded h3 { color:#4282a5; }
