@@ -1,4 +1,0 @@
---4/25/17--
-	1. Linking to a tab directly causes page to load incorrectly and drop down menus to break. -- FIXED
-	2. Linking to a tab directly doesn't navigate to the tab. -- FIXED
---4/26/17--
