@@ -2633,6 +2633,7 @@ html.js #views-exposed-form-directory-db-block-8 input.form-autocomplete { backg
 .view-directory-db .view-header .note_per_page { float:left; font-size:12px; }
 .view-directory-db .view-header .dis_no { float:right; font-size:13px; }
 .view-directory-db > .view-content { clear:both; margin-top: 15px; padding-top: 15px; border-top: 2px solid #cccccc; }
+.view-db { clear:both; padding-top: 30px; border-top: 2px solid #cccccc; }
 .view-directory-db .views-row-first { margin-top:15px; }
 #views-exposed-form-directory-db-block select, #views-exposed-form-directory-db-page-2 select, #views-exposed-form-directory-db-block-8 select, #views-exposed-form-directory-db-page-3 select { width:140px; }
 .mobile_btn { display:none; }
