@@ -5093,3 +5093,4 @@ h1#page-title.athletics_name{ background-color: #00652E; color:#FFFFFF; padding-
 @media(max-width:767px){
 .watch_hign {font-size: 16px; color: #ffcc3a; position: absolute;  top: 12px; left: 25px;   right: 0;}
 }
+.top-pad{margin-top:10px;}
